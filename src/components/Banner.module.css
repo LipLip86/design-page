@@ -21,7 +21,6 @@ h1 {
 
 .text_block {
   position: absolute;
-
   bottom: 350px;
   left: 20px;
   width: 434px;
@@ -37,9 +36,12 @@ h1 {
 }
 
 button {
-  background-color: #292F36;
-  color: white;
-  width: 433px;
-  height: 66px;
-  border-radius: 18px;
+align-items: center;
+padding: 26px 49px 26px 48px;
+gap: 10px;
+width: 220.14px;
+height: 75px;
+color: white;
+background: #292F36;
+border-radius: 18px;
 }
