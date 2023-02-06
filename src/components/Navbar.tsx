@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import s from './Nav.module.css';
-import logo from './Logo.svg'
-import search from './Search.svg'
+import logo from './Logo.svg';
+import seacrh from './Search.svg';
 
 const Navbar: any = () => {
   return (
-   <div className={s.container}>
+    <div className={s.container}>
     <div className={s.logo}>
       <img src={logo}/>
-    <h2></h2>
+
     </div>
     <div className={s.nav}>
       <ul className={s.nav__list}>
@@ -21,7 +21,7 @@ const Navbar: any = () => {
       </ul>
     </div>
     <div>
-      <img src={search} />
+      <img src={s.search} />
     </div>
   </div>
   )
