@@ -1,0 +1,4 @@
+.container__subcontent {
+  display: flex;
+  justify-content: space-between;
+}
