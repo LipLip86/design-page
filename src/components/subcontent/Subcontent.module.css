@@ -1,0 +1,18 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 100px;
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  ;
+}
+
+h2 {
+
+}
+
+p {
+  font-family: 'Jost';
+  font-size: 22px;
+}
