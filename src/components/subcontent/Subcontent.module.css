@@ -1,18 +1,11 @@
-
 .container {
-  display: flex;
-  align-items: center;
-  max-width: 100px;
-  font-family: 'DM Serif Display';
-  font-weight: 400;
-  ;
+  display:flex;
+  flex-direction: column;
+  color: #292F36;
+  font-size: 20px;
+  line-height: 125%;
 }
 
-h2 {
-
-}
-
-p {
+.text {
   font-family: 'Jost';
-  font-size: 22px;
 }

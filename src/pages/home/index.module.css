@@ -1,4 +1,32 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap'); */
+
+@font-face {
+  font-family: 'Jost Bold';
+  src:  url('../../assets/Jost-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'DM Serif Regular';
+  src: url('../../assets/DMSerifDisplay-Regular.ttf') format('tff');
+}
+
 .container__subcontent {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Jost';
+  margin: 35px;
+  color: red;
+}
+
+.container__subcontent p {
+  font-family: 'DM Serif Regular';
+  max-width: 70%;
+
+}
+
+.container_button {
+  max-width: 20px;
+  font-family: 'Arial Narrow Bold', sans-serif
 }

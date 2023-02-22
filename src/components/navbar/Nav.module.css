@@ -3,6 +3,7 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 max-height: 50px;
+margin: 55px;
 }
 
 .logo {

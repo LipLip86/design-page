@@ -1,13 +1,7 @@
-body {
-  font-family: Jost;
-}
-
-code {
-  font-family: Jost;
-}
-
 .container {
   max-width: 1200px;
   width: 100%;
   margin: 45px auto;
 }
+
+

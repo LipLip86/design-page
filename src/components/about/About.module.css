@@ -1,0 +1,42 @@
+.container2 {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Jost', sans-serif;
+  margin: 35px;
+}
+
+.container2 h2 {
+  font-family: 'DM Serif Display', serif;
+  color: #292F36;
+  font-size: 50px;
+  line-height: 125%;
+
+}
+
+.item1 {
+  font-family: 'Jost', sans-serif;
+
+}
+
+.item2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.item2 h3 {
+  color: #4D5053;
+  font-family: 'DM Serif Display', serif;
+
+}
+
+  .item3 {
+    margin: 35px;
+  }
+
+  img {
+    width: fit-content;
+  }
+
+  button {
+    background-image: url();
+  }
