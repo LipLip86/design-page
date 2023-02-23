@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Home } from './pages/home'
-import s from './index.module.css'
-import style from './App'
+import './App'
 
 function App() {
     return (

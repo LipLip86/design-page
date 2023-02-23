@@ -1,9 +1,9 @@
 .container{
-display: flex;
-align-items: center;
-justify-content: space-between;
-max-height: 50px;
-margin: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 50px;
+  margin: 44px auto 57px
 }
 
 .logo {

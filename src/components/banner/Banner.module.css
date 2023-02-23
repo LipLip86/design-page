@@ -1,12 +1,12 @@
 .container {
-display: flex;
-position: relative;
-margin: 35px;
-max-width: 1200px;
+  display: flex;
+  position: relative;
+  max-width: 1200px;
 }
 
 img {
   border-radius: 70px;
+  width: -webkit-fill-available;
 }
 
 .header {
@@ -36,12 +36,11 @@ img {
 }
 
 button {
-width: 220.14px;
-height: 75px;
-color: white;
-background: #292F36;
-border-radius: 20px;
-box-shadow: 0px 10px 20px;
-margin-left: 60px;
-
+  width: 220.14px;
+  height: 75px;
+  color: white;
+  background: #292F36;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px;
+  margin-left: 60px;
 }
