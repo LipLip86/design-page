@@ -1,17 +1,24 @@
 import React, { Component } from 'react';
+import { JsxElement } from 'typescript';
 import s from './Subcontent.module.css';
 
-const Subcontent: any = (props: any) => {
+interface ICard {
+  title: string,
+  text: string,
+  link: string
+}
+
+const Subcontent = (props: ICard): JSX.Element => {
   const {
     title,
     text,
-    button
+    link
   }=props
   return (
     <div className={s.container}>
       <h2>{title}</h2>
-      <p>{text}</p>
-      <button>{button}</button>
+      <p className={s.text}>{text}</p>
+      <a>{link}</a>
     </div>
   )
 }

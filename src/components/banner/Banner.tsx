@@ -8,9 +8,10 @@ const Banner: any = () => {
     <div className={s.container}>
         <img src={photo} />
       <div className={s.text_block}>
-      <h1>Let Your Home Be Unique</h1>
+      <h1 className={s.header}>Let Your Home
+      Be Unique</h1>
       <p>There are many variations of the passages of lorem Ipsum fromavailable, majority.</p>
-      <button> Get started</button>
+      <button>Get started</button>
       </div>
 
     </div>
