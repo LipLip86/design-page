@@ -29,7 +29,7 @@ const About: any = () => {
           </div>
         </div>
         <div className={s.button}>
-
+          Get The Estimate
         </div>
       </div>
       <div>

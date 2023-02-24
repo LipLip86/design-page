@@ -1,9 +1,13 @@
 .container {
-  display:flex;
+  display: flex;
   flex-direction: column;
   color: #292F36;
   font-size: 20px;
   line-height: 125%;
+}
+
+.container h2 {
+  font-family: 'DM Serif Display', serif;
 }
 
 .text {
