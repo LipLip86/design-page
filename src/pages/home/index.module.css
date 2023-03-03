@@ -25,9 +25,9 @@
 .container_review {
   display: flex;
   flex-direction: column;
-  width: 1199px;
-  left: 361px;
-  top: 2434px;
+  width: 100%;
+  max-width: 1199px;
+  margin: 0 auto;
   background: #F4F0EC;
   border-radius: 70px;
   font-family: 'Jost', sans-serif;
