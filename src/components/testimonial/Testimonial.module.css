@@ -1,22 +1,47 @@
-.background {
-
-}
-
-.container {
+.card {
   display: flex;
   flex-direction: column;
   color: #292F36;
-  margin-top: 50px;
   font-family: 'Jost', sans-serif;
   align-items: center;
-  flex-direction: column;
+  border-radius: 15px;
+  padding: 53px 37px 0;
+  background: #ffffff;
 }
 
-.container h3 {
+.card__content {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
 
-  /* font-family: 'DM Serif Display', serif;
+.card__content img {
+  max-width: 77px;
+  max-height: 77px;
+}
+
+.card__content h3 {
+  margin: 0;
+  font-family: 'DM Serif Display', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
-  line-height: 125%; */
+  font-size: 24px;
+  line-height: 37px;
+}
+
+.card__content p {
+  margin: 0;
+  font-family: 'DM Serif Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.card__text {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #4D5053;
 }

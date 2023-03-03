@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import s from './Testimonial.module.css'
-import { JsxElement } from 'typescript';
-import photo1 from './Photoreview1.jpg'
 
 interface IReview {
   name: string,
   location: string,
-  text: string
+  text: string,
+  photo: any
 }
 
 const Testimonial = (props: IReview): JSX.Element => {
@@ -14,11 +13,22 @@ const Testimonial = (props: IReview): JSX.Element => {
     name,
     location,
     text,
-  }=props
+    photo
+  } = props
   return (
-    <div className={s.container}>
-    <h3>{name} {location}</h3>
-    <p>{text}</p>
+    <div className={s.card}>
+      <div className={s.card__content}>
+        <img src={ photo } alt="image" />
+        <div>
+          <h3>
+            { name }
+          </h3>
+          <p>
+            { location }
+          </p>
+        </div>
+      </div>
+      <p className={s.card__text}>{ text }</p>
     </div>
   )
 }

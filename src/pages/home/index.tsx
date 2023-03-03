@@ -6,8 +6,8 @@ import Subcontent from '../../components/subcontent/Subcontent'
 import { cardsConfig } from '../../configs/cardsconfig';
 import About from '../../components/about/About'
 import Testimonial from "../../components/testimonial/Testimonial";
-import { reviewConfig } from '../../configs/reviewconfig';
 import Clients from '../../components/clients/Clients'
+import photo from '../../assets/Photoreview1.jpg'
 
 interface ICard {
   title: string,
@@ -21,32 +21,57 @@ interface IReview {
   text: string
 }
 
+const cardData = {
+  name: "Nattasha Mith",
+  location: "Sydney, USA",
+  text: "Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.",
+  image: photo
+}
+
 export const Home = () => {
   return (
     <div className={s.container}>
       <Navbar />
         <Banner />
         <div className={s.container__subcontent}>
-        {cardsConfig.map((item: ICard)=> (
-        <Subcontent
-          title={item.title}
-          text={item.text}
-          link={item.link}
-        />
-        ))}
+        {
+          cardsConfig.map((item: ICard) => (
+            <Subcontent
+              title={item.title}
+              text={item.text}
+              link={item.link}
+            />
+          ))
+        }
         </div>
         <About />
         <div className={s.container_review}>
           <h2>What People Think<br></br>
-            About Us</h2>
+            About Us
+          </h2>
           <div className={s.cards}>
-          {reviewConfig.map((item: IReview)=> (
+
             <Testimonial
-                name={item.name}
-                location={item.location}
-                text={item.text}/>
-          ))
-          }
+              name={cardData.name}
+              text={cardData.text}
+              location={cardData.location}
+              photo={cardData.image}
+            />
+
+            <Testimonial
+              name={cardData.name}
+              text={cardData.text}
+              location={cardData.location}
+              photo={cardData.image}
+            />
+
+            <Testimonial
+              name={cardData.name}
+              text={cardData.text}
+              location={cardData.location}
+              photo={cardData.image}
+            />
+
           </div>
         </div>
         <Clients />
