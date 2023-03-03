@@ -1,0 +1,22 @@
+.background {
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  color: #292F36;
+  margin-top: 50px;
+  font-family: 'Jost', sans-serif;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h3 {
+
+  /* font-family: 'DM Serif Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%; */
+}

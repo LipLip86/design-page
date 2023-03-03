@@ -34,3 +34,34 @@
   max-width: 20px;
   font-family: 'Arial Narrow Bold', sans-serif
 }
+
+.container_review {
+  display: flex;
+  width: 1199px;
+  left: 361px;
+  top: 2434px;
+  background-color: #F4F0EC;
+  border-radius: 70px;
+  font-family: 'Jost', sans-serif;
+
+
+}
+
+.container h2 {
+font-family: 'DM Serif Display', serif;
+text-align: center;
+letter-spacing: 0.02em;
+color: #292F36;
+font-weight: 400;
+font-size: 50px;
+line-height: 125%;
+}
+
+.cards {
+  display: flex;
+align-content: space-between;
+width: 33%;
+height: 339px;
+background: #FFFFFF;
+
+}

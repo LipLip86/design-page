@@ -27,4 +27,4 @@ const Navbar: any = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
