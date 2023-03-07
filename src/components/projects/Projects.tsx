@@ -17,6 +17,7 @@ const Projects: any = () => {
       </div>
       <div className={s.photo_container1}>
         <div className={s.block1}>
+          <div className={s.picture_block}>
         <img src={ img1 } />
         <div>
           <h4 className={s.header}>Modern Kitchen</h4>
@@ -25,11 +26,12 @@ const Projects: any = () => {
             <img src={arrow}/>
           </div>
           </div>
-          <div>
+          </div>
+          <div className={s.picture_block2}>
             <img src={img2} />
             </div>
             <div>
-          <h4 className={s.header}>Modern Kitchen</h4>
+          <h4 className={s.header}>Modern Room</h4>
           <p className={s.text_area}>Decor / Achitecture</p>
           <div>
             <img src={arrow}/>
@@ -38,22 +40,22 @@ const Projects: any = () => {
           </div>
         </div>
             <div className={s.photo_container2}>
+            <div className={s.block1}>
               <img src={img3} />
             <div>
-          <h4 className={s.header}>Modern Kitchen</h4>
+          <h4 className={s.header}>Modern Flat</h4>
           <p className={s.text_area}>Decor / Achitecture</p>
           <div>
             <img src={arrow}/>
           </div>
           </div>
-            <div>
               <img src={img4} />
-            </div>
             <div>
           <h4 className={s.header}>Modern Kitchen</h4>
           <p className={s.text_area}>Decor / Achitecture</p>
           <div>
             <img src={arrow}/>
+          </div>
           </div>
           </div>
           </div>

@@ -42,11 +42,20 @@
   flex-direction: row;
 }
 
-.photo_container2 {
+.picture_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.picture_block2 {
+  display: flex;
+  flex-direction: column !important;
+}
+/* .photo_container2 {
   display: flex;
   flex-direction: row;
   width: 45%;
-}
+} */
 
 
 .header {
