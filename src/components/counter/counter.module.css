@@ -1,13 +1,15 @@
 .counter {
+  position:relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
   margin-top: 150px;
-  background-color: #F4F0EC;;
+  background-color:#F4F0EC;
 }
 
 .counter1 {
+  position: absolute;
   display: flex;
   flex-direction: row;
 }
