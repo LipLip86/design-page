@@ -1,15 +1,16 @@
 import React from "react";
-import Navbar from '../../components/navbar/Navbar'
-import s from './index.module.css'
-import Banner from '../../components/banner/Banner'
-import Subcontent from '../../components/subcontent/Subcontent'
+import Navbar from '../../components/navbar/Navbar';
+import s from './index.module.css';
+import Banner from '../../components/banner/Banner';
+import Subcontent from '../../components/subcontent/Subcontent';
 import { cardsConfig } from '../../configs/cardsconfig';
-import About from '../../components/about/About'
+import About from '../../components/about/About';
 import Testimonial from "../../components/testimonial/Testimonial";
-import Clients from '../../components/clients/Clients'
-import photo from '../../assets/Photoreview1.jpg'
-import Projects from '../../components/projects/Projects'
-import Counter from "../../components/counter/Counter"
+import Clients from '../../components/clients/Clients';
+import photo from '../../assets/Photoreview1.jpg';
+import Projects from '../../components/projects/Projects';
+import Counter from "../../components/counter/Counter";
+import Blog from "../../components/blog/Blog";
 
 interface ICard {
   title: string,
@@ -79,6 +80,7 @@ export const Home = () => {
         <Clients />
         <Projects />
         <Counter />
+        <Blog />
     </div>
   )
 }

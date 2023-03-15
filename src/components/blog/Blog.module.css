@@ -1,0 +1,90 @@
+.container_main {
+  margin-top: 150px;
+}
+
+.container_text {
+  /* display: flex;
+  flex-direction: column;
+  margin-bottom: 50px; */
+}
+
+.container_text h2 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292F36;
+  text-align: center;
+}
+
+.container_text p {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+/* or 33px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.01em;
+color: #4D5053;
+margin-bottom: 60px;
+}
+
+.container_pictures {
+  /* width: 1200px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container_card {
+  border: 1px solid #E7E7E7;
+  border-radius: 62px;
+  padding: 21px;
+  height: 521px;
+  justify-content:
+
+}
+
+.container_card h3 {
+  width: 305px;
+  height: 70px;
+
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  /* or 31px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #292F36;
+}
+
+.container_card img {
+  border-radius: 25px;
+}
+
+.container_card p {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+
+color: #4D5053;
+}
