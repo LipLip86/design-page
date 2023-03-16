@@ -17,14 +17,15 @@ const Blog: any = () => {
   <div className={s.container_card}>
     <div className={s.card_top}>
       <img src={ img1 } />
+      <span> Kitchen Design</span>
+      </div>
     <div className={s.card_middle}>
-      <h3>Low Cost Latest Invented Interior Designing Ideas.</h3>
+      <h3>Low Cost Latest Invented Interior Designing Ideas</h3>
     </div>
     <div className={s.card_bottom}>
     <p>22 December,2022</p>
     </div>
     </div>
-  </div>
   <div className={s.container_card}>
     <div className={s.card_top}>
       <img src={ img2 } />

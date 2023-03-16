@@ -11,6 +11,7 @@ import photo from '../../assets/Photoreview1.jpg';
 import Projects from '../../components/projects/Projects';
 import Counter from "../../components/counter/Counter";
 import Blog from "../../components/blog/Blog";
+import Contacts from "../../components/contacts/Contacts";
 
 interface ICard {
   title: string,
@@ -81,6 +82,7 @@ export const Home = () => {
         <Projects />
         <Counter />
         <Blog />
+        <Contacts />
     </div>
   )
 }
