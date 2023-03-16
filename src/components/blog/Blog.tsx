@@ -29,6 +29,7 @@ const Blog: any = () => {
   <div className={s.container_card}>
     <div className={s.card_top}>
       <img src={ img2 } />
+      <span> Kitchen Design</span>
     </div>
     <div className={s.card_middle}>
     <h3>Let's Get Solution For Building Construction Work</h3>
@@ -40,6 +41,7 @@ const Blog: any = () => {
   <div className={s.container_card}>
     <div className={s.card_top}>
       <img src={ img3 } />
+      <span> Kitchen Design</span>
     </div>
     <div className={s.card_middle}>
       <h3>Best For Any Office & Business Interior Solution</h3>
