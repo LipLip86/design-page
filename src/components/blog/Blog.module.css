@@ -103,3 +103,49 @@ margin-bottom: 60px;
   letter-spacing: 0.01em;
   color: #4D5053;
 }
+
+.card_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container_card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #E7E7E7;
+    border-radius: 62px;
+    padding: 21px;
+    height: 521px;
+    background-color:  #F4F0EC;
+}
+
+.container_card2 h3 {
+    width: 305px;
+    height: 70px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #292F36;
+}
+
+.container_card2 p {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+}
+
+.container_card2 img {
+}

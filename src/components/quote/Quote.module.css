@@ -1,0 +1,35 @@
+.container_quote {
+  position: relative;
+  margin-top: 150px;
+}
+
+
+.container_img1 {
+  position: absolute;
+  left: 15px
+}
+
+.container_img2 {
+  position: absolute;
+  right: 15px;
+}
+
+.container_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_text h3 {
+  font-family: 'DM Serif Display', sans-serif;
+  font-style: normal;
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 125%;
+  color: #292F36;
+  margin:0;
+}
+.container_text p {
+
+}

@@ -24,6 +24,8 @@
   display: flex;
   gap: 15px;
   align-items: center;
+  margin-top: 20px;
+  
 }
 
 .content__contacts__text h4 {

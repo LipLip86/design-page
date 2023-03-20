@@ -3,6 +3,7 @@ import s from "./Blog.module.css";
 import img1 from "../../assets/blog_ph1.jpg";
 import img2 from "../../assets/blog_ph2.jpg";
 import img3 from "../../assets/blog_ph3.jpg";
+import arrow from "../../assets/arrow.svg";
 
 
 const Blog: any = () => {
@@ -24,9 +25,10 @@ const Blog: any = () => {
     </div>
     <div className={s.card_bottom}>
     <p>22 December,2022</p>
+    <img src={arrow} alt="arrow" />
     </div>
     </div>
-  <div className={s.container_card}>
+  <div className={s.container_card2}>
     <div className={s.card_top}>
       <img src={ img2 } />
       <span> Kitchen Design</span>
@@ -36,6 +38,7 @@ const Blog: any = () => {
     </div>
     <div className={s.card_bottom}>
     <p>26 December,2022</p>
+    <img src={arrow} alt="arrow" />
     </div>
   </div>
   <div className={s.container_card}>
@@ -48,6 +51,7 @@ const Blog: any = () => {
     </div>
     <div className={s.card_bottom}>
       <p>27 December,2022</p>
+      <img src={arrow} alt="arrow" />
     </div>
   </div>
 </div>
