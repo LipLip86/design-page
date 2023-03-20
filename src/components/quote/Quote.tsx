@@ -10,7 +10,7 @@ const Quote: any = () => {
   <img src={ imgLeft } />
   </div>
   <div className={s.container_text}>
-  <h3>"</h3>
+  <h2>"</h2>
   <h3>I like an interior that defies labeling. I don't
     really want someone to walk into a room
     and know that I did it</h3>

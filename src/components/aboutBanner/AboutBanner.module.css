@@ -1,20 +1,22 @@
 .container {
+  max-width: 1956px;
+  margin: 0 auto;
   width: 100%;
   position: relative;
 }
 
-.container_img1 {
+/* .container_img1 {
   position: absolute;
   left: 200px;
   height: 300px;
 
-}
+} */
 
-.container_img2 {
+/* .container_img2 {
   position: absolute;
   right: 100px;
   height: 300px;
-}
+} */
 
 .container__text {
   position: absolute;
