@@ -1,20 +1,20 @@
 import React from 'react';
+import './App'
 import { Route, Routes } from 'react-router-dom';
 import { Home } from './pages/home'
-import './App'
 import { About } from './pages/about';
+import Navbar from "./components/widgets/navbar/Navbar";
 
 function App() {
-    return (
-      <>
+  return (
+    <>
+      <Navbar />
         <Routes>
-        <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
         </Routes>
-        <Routes>
-          <Route path="/" element={<About />} />
-        </Routes>
-    </>
-    )
+  </>
+  )
 }
 
 export default App;

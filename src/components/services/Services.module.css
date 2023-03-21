@@ -61,3 +61,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
+
+.container_service__left_btn {
+  margin-top: 41px;
+}

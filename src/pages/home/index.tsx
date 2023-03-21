@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from '../../components/navbar/Navbar';
 import s from './index.module.css';
 import Banner from '../../components/banner/Banner';
 import Subcontent from '../../components/subcontent/Subcontent';
@@ -35,12 +34,12 @@ const cardData = {
 export const Home = () => {
   return (
     <div className={s.container}>
-      <Navbar />
         <Banner />
         <div className={s.container__subcontent}>
         {
           cardsConfig.map((item: ICard) => (
             <Subcontent
+              key={item.title}
               title={item.title}
               text={item.text}
               link={item.link}

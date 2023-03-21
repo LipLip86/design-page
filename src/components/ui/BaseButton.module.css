@@ -1,0 +1,19 @@
+.btn {
+  height: 75px;
+  width: 237px;
+  padding: 26px 37px;
+  border-radius: 18px;
+  color: #ffffff;
+}
+
+.btn_default-blue {
+  background-color: #292F36;
+}
+
+.btn_default-yellow {
+  background-color: yellow;
+}
+
+.img {
+  height: 20px;
+}
