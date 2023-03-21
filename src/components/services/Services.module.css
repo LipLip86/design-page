@@ -12,19 +12,19 @@
 
 
 .container_service h3 {
-font-family: 'DM Serif Display';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 125%;
-letter-spacing: 0.02em;
-color: #292F36;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292F36;
 }
 
 .container_service__left {
-display: flex;
-flex-direction: column;
-justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
@@ -41,8 +41,18 @@ justify-content: center;
   line-height: 125%;
   color: #292F36;
   text-align: center;
+}
 
-
+.container_service p {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #4D5053
 }
 
 .container_service__second {
@@ -51,8 +61,3 @@ justify-content: center;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
-
-/* .container_service__right {
-  display: flex;
-  flex-direction: column;
-} */
