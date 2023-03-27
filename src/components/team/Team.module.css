@@ -1,0 +1,21 @@
+.container_team_main {
+  width: 1920px;
+  height: 968px;
+  background: #F4F0EC;
+  margin-top: 150px;
+}
+.container_team_main h3 {
+font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #292F36;}
+
+.container_team__card_container {
+
+}

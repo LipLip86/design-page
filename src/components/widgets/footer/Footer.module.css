@@ -4,6 +4,7 @@
   grid-template-columns: 2fr 1fr 1fr 2fr;
   justify-items: center;
   margin-top: 150px;
+  align-items: flex-start;
 }
 
 .container_footer h3 {
