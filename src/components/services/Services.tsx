@@ -2,7 +2,7 @@ import React from "react";
 import s from "./Services.module.css";
 import img1 from "../../assets/Photoabout.jpg";
 import img2 from "../../assets/Photoabout2.jpg";
-import BaseButton from "../ui/BaseButton";
+import BaseButton from "../UI/BaseButton";
 
 
 const Services: any = () => {
