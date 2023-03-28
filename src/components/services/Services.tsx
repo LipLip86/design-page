@@ -2,7 +2,7 @@ import React from "react";
 import s from "./Services.module.css";
 import img1 from "../../assets/Photoabout.jpg";
 import img2 from "../../assets/Photoabout2.jpg";
-import BaseButton from "../UI/BaseButton";
+import BaseButton from "../ui/BaseButton";
 
 
 const Services: any = () => {
@@ -32,12 +32,12 @@ const Services: any = () => {
         </div>
         </div>
   <div className={s.container_service__right}>
-  <img src={img1} />
+  <img src={img1} alt='' />
   </div>
       </div>
       <div className={s.container_service__second}>
       <div className={s.container_service__right}>
-  <img src={img2} />
+  <img src={img2} alt='' />
   </div>
       <div className={s.container_service__left}>
         <h3>The End Result</h3>

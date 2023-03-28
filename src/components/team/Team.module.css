@@ -10,7 +10,7 @@
 }
 .container_team_main h3 {
   margin: 0;
-  font-family: 'DM Serif Display';
+  font-family: 'DM Serif Display', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -20,15 +20,37 @@
   color: #292F36;}
 
 .container_team__card_container {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .container_team__card_container img {
-border-radius: 30px;
+  border-radius: 30px;
 }
 
 .container_team__card_container_isFlipped {
   
+}
+
+.card {
+  border: 1px solid red;
+  cursor: pointer;
+  position: relative;
+  animation: 0.3ms all;
+}
+
+.card__info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.card:hover .card__image {
+  opacity: 0;
+}
+
+.card:hover .card__info {
+  opacity: 1;
 }

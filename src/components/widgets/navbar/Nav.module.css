@@ -3,7 +3,9 @@
   align-items: center;
   justify-content: space-between;
   max-height: 50px;
-  margin: 44px auto 57px
+  margin: 44px auto 57px;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .logo {
@@ -21,7 +23,7 @@
   gap: 20px;
   list-style: none;
   color: #292F36;
-  font-family: 'Jost';
+  font-family: 'Jost', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
