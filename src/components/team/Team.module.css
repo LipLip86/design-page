@@ -28,3 +28,7 @@ justify-content: space-evenly;
 .container_team__card_container img {
 border-radius: 30px;
 }
+
+.container_team__card_container_isFlipped {
+  
+}
