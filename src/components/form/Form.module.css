@@ -1,5 +1,11 @@
-.form_container_main {
-  width: 4854px;
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 2.5fr;
+  gap: 0px 02px;
+  grid-template-areas:
+    "Name Email"
+    "Hello\.\.\. Hello\.\.\.";
 }
 
 
@@ -10,9 +16,9 @@
   font-size: 50px;
   line-height: 125%;
 
-  display: flex;
+  /* display: flex;
   align-items: center;
-  text-align: center;
+  text-align: center; */
   letter-spacing: 0.02em;
 
   color: #292F36;
