@@ -16,8 +16,23 @@ const Team: any = () => {
 </h3>
 <div className={s.container_team__card_container}>
 
+  <div className={s.flip_card}>
+    <div className={s.flip_card_inner}>
+      <div className={s.flip_card_front}>
+        <img src={photo1} alt="Avatar" className={s.front__img} />
+      </div>
+      <div className={s.flip_card_back}>
+        <h1>John Doe</h1>
+        <p>Architect & Engineer</p>
+        <p>We love that guy</p>
+      </div>
+    </div>
+  </div>
+
   <div className={s.card}>
-    <img src={photo1} alt="" className={s.card__image} />
+    <div className={s.card__inner}>
+      <img src={photo1} alt="" className={s.card__image} />
+
       <div className={s.card__info}>
         <div className={s.card__info__top}>
           <h4>Patrick Dale</h4>
@@ -29,11 +44,12 @@ const Team: any = () => {
           <img src={lnkdn} alt="" />
           <img src={insta} alt="" />
         </div>
-      <div className={s.card__info__bottom}>
-      <p> 1 (378) 400-1234</p>
-      <p>julie@email.com</p>
+        <div className={s.card__info__bottom}>
+          <p> 1 (378) 400-1234</p>
+          <p>julie@email.com</p>
+        </div>
       </div>
-      </div>
+    </div>
     </div>
   </div>
 
