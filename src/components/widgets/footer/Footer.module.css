@@ -38,6 +38,8 @@
 
 .container_footer__logo__images {
   display: flex;
+  max-width: 250px;
+  width: 100%;
   flex-direction: row;
   justify-content: space-between;
 }
