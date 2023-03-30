@@ -1,0 +1,19 @@
+.form_container_main {
+  width: 4854px;
+}
+
+
+.form_container_main h3 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #292F36;
+}

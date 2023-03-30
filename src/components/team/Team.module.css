@@ -1,7 +1,7 @@
 .container_team_main {
   display: flex;
-  width: 1920px;
-  height: 968px;
+  max-width: 1920px;
+  max-height: 968px;
   background: #F4F0EC;
   margin-top: 150px;
   justify-content: space-evenly;
@@ -68,6 +68,16 @@
   display: flex !important;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.card__info__bottom {
+  font-family: 'Jost', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0.01em;
+color: #4D5053;
 }
 
 .card:hover .card__image {

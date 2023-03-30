@@ -30,7 +30,7 @@ const Team: any = () => {
           <img src={insta} alt="" />
         </div>
       <div className={s.card__info__bottom}>
-      <p> 1 (378) 400-1234</p>+
+      <p> 1 (378) 400-1234</p>
       <p>julie@email.com</p>
       </div>
       </div>
@@ -51,7 +51,7 @@ const Team: any = () => {
           <img src={insta} alt="" />
         </div>
       <div className={s.card__info__bottom}>
-      <p> 1 (378) 400-1234</p>+
+      <p> 1 (378) 400-1234</p>
       <p>julie@email.com</p>
       </div>
     </div>
@@ -71,7 +71,7 @@ const Team: any = () => {
           <img src={insta} alt="" />
         </div>
       <div className={s.card__info__bottom}>
-      <p> 1 (378) 400-1234</p>+
+      <p> 1 (378) 400-1234</p>
       <p>julie@email.com</p>
       </div>
     </div>
@@ -91,7 +91,7 @@ const Team: any = () => {
           <img src={insta} alt="" />
         </div>
       <div className={s.card__info__bottom}>
-      <p> 1 (378) 400-1234</p>+
+      <p> 1 (378) 400-1234</p>
       <p>julie@email.com</p>
       </div>
     </div>
