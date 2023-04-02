@@ -1,27 +1,14 @@
 import React from "react";
-import s from './index.module.css';
-import Banner from '../../components/banner/Banner';
-import Subcontent from '../../components/subcontent/Subcontent';
+import { HomeBanner, StageCard, AboutUs, TestimonialCard, Clients, Projects, Counter, Blog, Contacts } from '../../components/index';
 import { cardsConfig } from '../../configs/cardsconfig';
-import About from '../../components/about/About';
-import Testimonial from "../../components/testimonial/Testimonial";
-import Clients from '../../components/clients/Clients';
 import photo from '../../assets/Photoreview1.jpg';
-import Projects from '../../components/projects/Projects';
-import Counter from "../../components/counter/Counter";
-import Blog from "../../components/blog/Blog";
-import Contacts from "../../components/contacts/Contacts";
+
+import s from './index.module.css';
 
 interface ICard {
   title: string,
   text: string,
   link: string
-}
-
-interface IReview {
-  name: string,
-  location: string,
-  text: string
 }
 
 const cardData = {
@@ -34,11 +21,11 @@ const cardData = {
 const Home = () => {
   return (
     <div className={s.container}>
-      <Banner />
+      <HomeBanner />
       <div className={s.subcontent}>
       {
         cardsConfig.map((item: ICard) => (
-          <Subcontent
+          <StageCard
             key={item.title}
             title={item.title}
             text={item.text}
@@ -47,28 +34,28 @@ const Home = () => {
         ))
       }
       </div>
-      <About />
+      <AboutUs />
       <div className={s.container_review}>
         <h2>What People Think<br></br>
           About Us
         </h2>
         <div className={s.cards}>
 
-          <Testimonial
+          <TestimonialCard
             name={cardData.name}
             text={cardData.text}
             location={cardData.location}
             photo={cardData.image}
           />
 
-          <Testimonial
+          <TestimonialCard
             name={cardData.name}
             text={cardData.text}
             location={cardData.location}
             photo={cardData.image}
           />
 
-          <Testimonial
+          <TestimonialCard
             name={cardData.name}
             text={cardData.text}
             location={cardData.location}

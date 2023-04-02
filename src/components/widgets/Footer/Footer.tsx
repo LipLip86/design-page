@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Footer.module.css"
+import s from "./styles.module.css"
 import logo from "../../../assets/Logo.svg";
 import fb from "../../../assets/fb.svg";
 import twitter from "../../../assets/twitter.svg";
@@ -10,14 +10,14 @@ const Footer: any = () => {
   return (
 <div className={s.container_footer}>
   <div className={s.container_footer__logo}>
-    <img src={ logo } />
+    <img src={ logo } alt="logo" />
     <p>It is a long established fact that a reader will
       be distracted lookings.</p>
       <div className={s.container_footer__logo__images}>
-      <img src={fb} />
-      <img src={twitter} />
-      <img src={lnkdn} />
-      <img src={insta} />
+      <img src={fb} alt="logo"/>
+      <img src={twitter} alt="logo"/>
+      <img src={lnkdn} alt="logo"/>
+      <img src={insta} alt="logo"/>
       </div>
   </div>
   <div className={s.container_footer__pages}>

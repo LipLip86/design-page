@@ -1,0 +1,47 @@
+.container_main {
+  display: flex;
+  flex-direction: column;
+  background-color: #292F36;
+  align-items: center;
+  padding: 80px 0;
+
+  height: max-content;
+  border-radius: 70px;
+  margin-top: 150px;
+}
+
+.container_main h3 {
+  font-family: 'DM Serif Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.container_main p {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.container_main span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 220px;
+    height: 75px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 60px;
+    background: #CDA274;
+}
