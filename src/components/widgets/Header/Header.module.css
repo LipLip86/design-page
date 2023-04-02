@@ -29,3 +29,13 @@
   font-size: 20px;
   line-height: 125%;
 }
+
+.nav__list_link {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  color: #292F36;
+  text-decoration: none;
+}

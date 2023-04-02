@@ -1,6 +1,6 @@
 .container_footer {
   max-width: 1199px;
-  margin: 150px 0 auto;
+  margin: 150px auto 0;
   display: flex;
   justify-content: space-between;
 }

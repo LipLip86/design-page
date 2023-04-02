@@ -6,14 +6,18 @@ import Team from "../../components/team/Team";
 import Form from "../../components/form/Form";
 import s from './index.module.css';
 
-export const About = () => {
+const About = () => {
   return (
-    <div className={s.container}>
+    <>
       <AboutBanner />
-      <Quote />
-      <Services />
-      <Team />
-      <Form />
-    </div>
+      <div className={s.container}>
+        <Quote />
+        <Services />
+        <Team />
+        <Form />
+      </div>
+    </>
   )
 };
+
+export default About;
