@@ -1,0 +1,67 @@
+.container2 {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Jost', sans-serif;
+  gap: 75px;
+}
+
+.content__top h2 {
+  font-family: 'DM Serif Display', serif;
+  color: #292F36;
+  font-size: 50px;
+  line-height: 125%;
+}
+
+.content__top p {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #4D5053;
+}
+
+.content__contacts {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+.content__contacts__text h4 {
+  margin: 0;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #4D5053;
+}
+
+.content__contacts__text p {
+  margin: 0;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #4D5053;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+  width: 220px;
+  height: 75px;
+  background: #292F36;
+  box-shadow: 0 10px 20px rgba(192, 192, 192, 0.35);
+  border-radius: 20px;
+  color: white;
+  background-image: url('./Vector.svg');
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+}
