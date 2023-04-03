@@ -1,0 +1,154 @@
+.container_team__card_container {
+  display: flex;
+  max-width: 1920px;
+  max-height: 968px;
+  background: #F4F0EC;
+  margin-top: 150px;
+  justify-content: space-evenly;
+
+}
+.container_team_main h3 {
+  margin: 0;
+  font-family: 'DM Serif Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #292F36;}
+
+.container_team__card_container {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container_team__card_container img {
+  border-radius: 30px;
+}
+
+.card {
+  /* border: 1px solid red; */
+  cursor: pointer;
+  position: relative;
+  animation: 0.3ms all;
+  /* transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 1s;
+  backface-visibility: hidden; */
+}
+
+.card__info {
+  position: absolute;
+  top: 70px;
+  left: 28.75px;
+  bottom: 125px;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  /* transform: translateX(-100%) rotateY(-180deg);
+  transform: rotateY(180deg); */
+}
+
+.card__info__top {
+  flex-direction: column;
+  font-family: 'DM Serif Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #292F36;
+}
+
+.card__info__middle {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card__info__bottom {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+}
+
+.card__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card__image, .card__info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+/*new*/
+
+.flip_card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip_card_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip_card:hover .flip_card_inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip_card_front, .flip_card_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip_card_front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip_card_back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.front__img {
+  width: 283px;
+  height: 433px;
+}

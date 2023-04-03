@@ -24,6 +24,8 @@
   display: flex;
   gap: 15px;
   align-items: center;
+  margin-top: 20px;
+  
 }
 
 .content__contacts__text h4 {
@@ -44,4 +46,22 @@
   font-size: 22px;
   line-height: 150%;
   color: #4D5053;
+}
+
+.button {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+gap: 10px;
+width: 220.14px;
+height: 75px;
+background: #292F36;
+box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+border-radius: 20px;
+color: white;
+background-image: url('../about/Vector.svg');
+background-repeat: no-repeat;
+background-position: right 24px center;
 }

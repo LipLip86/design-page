@@ -1,0 +1,98 @@
+.container_projects {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 150px;
+  }
+
+  .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 760px;
+  margin: 0 auto 73px;
+  }
+
+  .text h3 {
+  margin: 0;
+  font-family: 'DM Serif Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292F36;
+  }
+
+  .text p {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+  }
+
+  .projects_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 56px 99px;
+  grid-template-areas:
+  ". ."
+  ". .";
+  }
+
+  .image_first {
+  border-radius: 0 80px 0 0;
+  }
+
+  .image_second {
+  border-radius: 80px 0 0 0;
+  }
+
+  .image_third {
+  border-radius: 0 0 80px 0;
+  }
+
+  .image_four {
+  border-radius: 0 0 0 80px;
+  }
+
+  .project_block {
+  display: flex;
+  flex-direction: column;
+  }
+
+  .project_content {
+  display: flex;
+  margin-top: 28px;
+  justify-content: space-between;
+  }
+
+  .project_text {
+  text-align: left;
+  }
+
+  .project_text h4 {
+  margin: 0 0 4px 0;
+  font-family: 'DM Serif Display', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292F36;
+  }
+
+  .project_text p {
+  margin: 0;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+  }

@@ -1,0 +1,67 @@
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 2.5fr;
+  gap: 0 20px;
+  grid-template-areas:
+    "Name Email"
+    "Hello\.\.\. Hello\.\.\.";
+}
+
+
+.form_container_main h3 {
+  font-family: 'DM Serif Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292F36;
+}
+
+.form {
+  max-width: 796px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 45px 175px;
+  gap: 57px 40px;
+  grid-template-areas:
+    "input_name input_email"
+    "textarea textarea";
+}
+
+.input_name { grid-area: input_name; }
+.input_email { grid-area: input_email; }
+.textarea {
+  grid-area: textarea;
+}
+
+.input {
+  outline: unset;
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 100%;
+  height: 100%;
+
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+
+  overflow: hidden;
+}
+
+.input::placeholder {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+  position: relative;
+}
