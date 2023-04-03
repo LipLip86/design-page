@@ -22,9 +22,16 @@ const Team: any = () => {
         <img src={photo1} alt="Avatar" className={s.front__img} />
       </div>
       <div className={s.flip_card_back}>
-        <h1>John Doe</h1>
+      <div className={s.card__info__top}>
+        <h4>Patrick Dale</h4>
         <p>Architect & Engineer</p>
-        <p>We love that guy</p>
+        </div>
+        <div className={s.card__info__middle}>
+          <img src={fb} alt="" />
+          <img src={twitter} alt="" />
+          <img src={lnkdn} alt="" />
+          <img src={insta} alt="" />
+        </div>
       </div>
     </div>
   </div>
