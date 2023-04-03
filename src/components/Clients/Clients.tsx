@@ -9,7 +9,7 @@ import img5 from './05.svg'
 
 const Clients: any = () => {
 
-  return (
+return (
   <div className={s.client_logo}>
     <img src={img1} alt="logo"/>
     <img src={img2} alt="logo"/>
