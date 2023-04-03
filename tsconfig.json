@@ -23,7 +23,7 @@
   "include": [
     "**/*.ts",
     "**/*.tsx"
-, "src/components/navbar/Navbar.tsx"  ],
+  ],
   "exclude": [
     "node_modules"
   ]
