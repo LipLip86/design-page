@@ -1,10 +1,11 @@
 import React from "react";
 import s from './index.module.css';
+import ServiceBanner from "../../components/service_banner/ServiceBanner";
 
 const Services = () => {
   return (
     <div>
-      It's Services Page
+      <ServiceBanner />
     </div>
   )
 }

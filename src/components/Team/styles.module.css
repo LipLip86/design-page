@@ -2,6 +2,7 @@
   display: flex;
   max-width: 1920px;
   max-height: 968px;
+  height: 100%;
   background: #F4F0EC;
   margin-top: 150px;
   justify-content: space-evenly;
@@ -28,14 +29,9 @@
 }
 
 .card {
-  /* border: 1px solid red; */
   cursor: pointer;
   position: relative;
   animation: 0.3ms all;
-  /* transform-style: preserve-3d;
-  transform-origin: center right;
-  transition: transform 1s;
-  backface-visibility: hidden; */
 }
 
 .card__info {
@@ -139,12 +135,14 @@
 .flip_card_front {
   background-color: #bbb;
   color: black;
+  border-radius: 30px;
 }
 
 /* Style the back side */
 .flip_card_back {
-  background-color: dodgerblue;
-  color: white;
+  background-color: #bbb;
+  color: black;
+  border-radius: 30px;
   transform: rotateY(180deg);
 }
 

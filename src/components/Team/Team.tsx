@@ -12,7 +12,7 @@ const Team: any = () => {
 
   return (
 <div className={s.container_team_main}>
-  <h3>What the People Thinks About Us
+  <h3>What People Think About Us
 </h3>
 <div className={s.container_team__card_container}>
 
@@ -27,11 +27,14 @@ const Team: any = () => {
         <p>Architect & Engineer</p>
         </div>
         <div className={s.card__info__middle}>
-          <img src={fb} alt="" />
-          <img src={twitter} alt="" />
-          <img src={lnkdn} alt="" />
-          <img src={insta} alt="" />
+          <img src={fb} alt="facebook_icon" />
+          <img src={twitter} alt="twitter_icon" />
+          <img src={lnkdn} alt="lnkdn_icon" />
+          <img src={insta} alt="insta_icon" />
         </div>
+        <div className={s.card__info__bottom}>
+          <p>+1 (378) 400-1234 julie@email.com</p>
+          </div>
       </div>
     </div>
   </div>
