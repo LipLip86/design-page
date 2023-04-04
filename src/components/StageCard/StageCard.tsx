@@ -4,17 +4,20 @@ import s from './styles.module.css';
 interface ICard {
   title: string,
   text: string,
-  link: string
+  link: string,
+  className?: string
 }
 
 const StageCard = (props: ICard): JSX.Element => {
   const {
     title,
     text,
-    link
+    link,
+    className
   }=props
+  const cls = `${s.container} ${className}`
   return (
-    <div className={s.container}>
+    <div className={cls}>
       <h2>{title}</h2>
       <p className={s.text}>{text}</p>
       <a href="">{link}</a>
