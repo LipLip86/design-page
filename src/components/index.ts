@@ -12,6 +12,8 @@ import Quote from "./Quote/Quote";
 import Services from "./Services/Services";
 import Team from "./Team/Team";
 import Form from "./Form/Form";
+import Work from "./work/Work";
+
 
 export {
   AboutUs,
@@ -27,5 +29,6 @@ export {
   Quote,
   Services,
   Team,
-  Form
+  Form,
+  Work
 };

@@ -4,6 +4,7 @@ import ServiceBanner from "../../components/service_banner/ServiceBanner";
 import { Contacts } from "../../components";
 import { StageCard } from "../../components";
 import { servicesCardsConfig } from "../../configs/servicesCardsConfig";
+import { Work } from "../../components";
 
 interface ICard {
   title: string,
@@ -15,7 +16,6 @@ const Services = () => {
   return (
     <div>
       <ServiceBanner />
-      <Contacts />
       <div className={s.subcontent}>
       {
         servicesCardsConfig.map((item: ICard) => (
@@ -29,6 +29,8 @@ const Services = () => {
         ))
       }
       </div>
+          <Work />
+          <Contacts />
     </div>
   )
 }
