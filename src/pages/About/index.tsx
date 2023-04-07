@@ -10,7 +10,9 @@ const About = () => {
       <div className={s.container}>
         <Quote />
         <Services />
+      </div>
         <Team />
+      <div className={s.container}>
         <Form />
       </div>
     </>
