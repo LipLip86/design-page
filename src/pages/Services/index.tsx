@@ -14,8 +14,9 @@ interface ICard {
 
 const Services = () => {
   return (
-    <div>
-      <ServiceBanner />
+    <>
+    <ServiceBanner />
+    <div className={s.container}>
       <div className={s.subcontent}>
       {
         servicesCardsConfig.map((item: ICard) => (
@@ -29,9 +30,10 @@ const Services = () => {
         ))
       }
       </div>
-          <Work />
-          <Contacts />
+        <Work />
+        <Contacts />
     </div>
+    </>
   )
 }
 

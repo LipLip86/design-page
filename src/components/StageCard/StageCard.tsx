@@ -14,7 +14,7 @@ const StageCard = (props: ICard): JSX.Element => {
     text,
     link,
     className
-  }=props
+  } = props
   const cls = `${s.container} ${className}`
   return (
     <div className={cls}>

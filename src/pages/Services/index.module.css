@@ -1,3 +1,8 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .hover:hover {
   background-color: #F4F0EC;
   border-radius: 30px;

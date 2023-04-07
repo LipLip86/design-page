@@ -7,51 +7,84 @@ import icon2 from "../../assets/Icon_work2.svg";
 
 const Work: any = () => {
   return (
-    <div className={s.container_work_main}>
-      <div className={s.container_work_main__text}>
-      <h2>How We Work</h2>
-      <p>It is a long established fact will be distracted. Lorem Ipsum is simply dummy
+    <div className={s.work}>
+      <div className={s.work__text}>
+        <h2>How We Work</h2>
+        <p>It is a long established fact will be distracted. Lorem Ipsum is simply dummy
         text of the printing and typesetting industry.</p>
-        </div>
-        <div className={s.container_work_main__picture_block}>
+      </div>
+
+      <div className={s.container_work_main__picture_block}>
+        <div className={s.container_work_main__picture_block__left}>
+        <img src={img1} alt="work" />
+      </div>
+        <div className={s.container_work_main__picture_block__right}>
+          <div className={s.container_work_main__picture_block__right__top}>
+          <img src={icon1} alt="icon"/>
+          <h2>01</h2>
+          </div>
+          <div className={s.container_work_main__picture_block__right__middle}>
+          <h3>Concept & Details</h3>
+          <p>It is a long established fact will be distracted.
+            Lorem Ipsum is simply dummy from text of the and
+            typesetting indufstry.</p>
+            </div>
+    </div>
+      </div>
+
+      <div className={`${s.container_work_main__picture_block} ${s.custom}`}>
         <div className={s.container_work_main__picture_block__left}>
           <img src={img1} alt="work" />
-          </div>
-          <div className={s.container_work_main__picture_block__right}>
-            <div className={s.container_work_main__picture_block__right__top}>
+        </div>
+        <div className={s.container_work_main__picture_block__right}>
+          <div className={s.container_work_main__picture_block__right__top}>
             <img src={icon1} alt="icon"/>
             <h2>01</h2>
-            </div>
-            <div className={s.container_work_main__picture_block__right__middle}>
+          </div>
+          <div className={s.container_work_main__picture_block__right__middle}>
             <h3>Concept & Details</h3>
             <p>It is a long established fact will be distracted.
               Lorem Ipsum is simply dummy from text of the and
               typesetting indufstry.</p>
-              </div>
           </div>
         </div>
-        <div className={s.container_work_main__text}>
-      <h2>Idea for Work</h2>
-      <p>It is a long established fact will be distracted. Lorem Ipsum is simply dummy
-        text of the printing and typesetting industry.</p>
-        </div>
-        <div className={s.container_work_main__picture_block}>
+      </div>
+
+      <div className={s.container_work_main__picture_block}>
         <div className={s.container_work_main__picture_block__left}>
-          <img src={img2} alt="work" />
+          <img src={img1} alt="work" />
+        </div>
+        <div className={s.container_work_main__picture_block__right}>
+          <div className={s.container_work_main__picture_block__right__top}>
+            <img src={icon1} alt="icon"/>
+            <h2>01</h2>
           </div>
-          <div className={s.container_work_main__picture_block__right}>
-            <div className={s.container_work_main__picture_block__right__top}>
-            <img src={icon2} alt="icon"/>
-            <h2>02</h2>
-            </div>
-            </div>
-            {/* <div className={s.container_work_main__picture_block__right__middle}>
+          <div className={s.container_work_main__picture_block__right__middle}>
             <h3>Concept & Details</h3>
             <p>It is a long established fact will be distracted.
               Lorem Ipsum is simply dummy from text of the and
               typesetting indufstry.</p>
-              </div> */}
-    </div>
+          </div>
+        </div>
+      </div>
+
+      <div className={`${s.container_work_main__picture_block} ${s.custom}`}>
+        <div className={s.container_work_main__picture_block__left}>
+          <img src={img1} alt="work" />
+        </div>
+        <div className={s.container_work_main__picture_block__right}>
+          <div className={s.container_work_main__picture_block__right__top}>
+            <img src={icon1} alt="icon"/>
+            <h2>01</h2>
+          </div>
+          <div className={s.container_work_main__picture_block__right__middle}>
+            <h3>Concept & Details</h3>
+            <p>It is a long established fact will be distracted.
+              Lorem Ipsum is simply dummy from text of the and
+              typesetting indufstry.</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
