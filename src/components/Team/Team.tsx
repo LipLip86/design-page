@@ -11,118 +11,119 @@ import insta from "../../assets/insta.svg";
 const Team: any = () => {
 
   return (
-<div className={s.container_team_main}>
-  <h3>What People Think About Us
-</h3>
-<div className={s.container_team__card_container}>
+    <div className={s.team}>
+      <div className={s.team__content}>
+        <p className={s.team__content_title}>What People Think About Us</p>
+        <div className={s.team__content_cards}>
 
-  <div className={s.flip_card}>
-    <div className={s.flip_card_inner}>
-      <div className={s.flip_card_front}>
-        <img src={photo1} alt="Avatar" className={s.front__img} />
-      </div>
-      <div className={s.flip_card_back}>
-      <div className={s.card__info__top}>
-        <h4>Patrick Dale</h4>
-        <p>Architect & Engineer</p>
-        </div>
-        <div className={s.card__info__middle}>
-          <img src={fb} alt="facebook_icon" />
-          <img src={twitter} alt="twitter_icon" />
-          <img src={lnkdn} alt="lnkdn_icon" />
-          <img src={insta} alt="insta_icon" />
-        </div>
-        <div className={s.card__info__bottom}>
-          <p>+1 (378) 400-1234 julie@email.com</p>
+          <div className={s.flip_card}>
+            <div className={s.flip_card_inner}>
+              <div className={s.flip_card_front}>
+                <img src={photo1} alt="Avatar" className={s.front__img} />
+              </div>
+              <div className={s.flip_card_back}>
+
+                <div className={s.card__info__top}>
+                  <p>Patrick Dale</p>
+                  <p>Architect & Engineer</p>
+                </div>
+
+                <div className={s.card__info__middle}>
+                  <img src={fb} alt="facebook_icon" />
+                  <img src={twitter} alt="twitter_icon" />
+                  <img src={lnkdn} alt="lnkdn_icon" />
+                  <img src={insta} alt="insta_icon" />
+                </div>
+
+                <div className={s.card__info__bottom}>
+                  <p>+1 (378) 400-1234 julie@email.com</p>
+                </div>
+              </div>
+            </div>
           </div>
-      </div>
-    </div>
-  </div>
 
-  <div className={s.card}>
-    <div className={s.card__inner}>
-      <img src={photo1} alt="" className={s.card__image} />
+          <div className={s.flip_card}>
+            <div className={s.flip_card_inner}>
+              <div className={s.flip_card_front}>
+                <img src={photo2} alt="Avatar" className={s.front__img} />
+              </div>
+              <div className={s.flip_card_back}>
 
-      <div className={s.card__info}>
-        <div className={s.card__info__top}>
-          <h4>Patrick Dale</h4>
-          <p>Design, Australia</p>
-        </div>
-        <div className={s.card__info__middle}>
-          <img src={fb} alt="" />
-          <img src={twitter} alt="" />
-          <img src={lnkdn} alt="" />
-          <img src={insta} alt="" />
-        </div>
-        <div className={s.card__info__bottom}>
-          <p> 1 (378) 400-1234</p>
-          <p>julie@email.com</p>
+                <div className={s.card__info__top}>
+                  <p>Patrick Dale</p>
+                  <p>Architect & Engineer</p>
+                </div>
+
+                <div className={s.card__info__middle}>
+                  <img src={fb} alt="facebook_icon" />
+                  <img src={twitter} alt="twitter_icon" />
+                  <img src={lnkdn} alt="lnkdn_icon" />
+                  <img src={insta} alt="insta_icon" />
+                </div>
+
+                <div className={s.card__info__bottom}>
+                  <p>+1 (378) 400-1234 julie@email.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={s.flip_card}>
+            <div className={s.flip_card_inner}>
+              <div className={s.flip_card_front}>
+                <img src={photo3} alt="Avatar" className={s.front__img} />
+              </div>
+              <div className={s.flip_card_back}>
+
+                <div className={s.card__info__top}>
+                  <p>Patrick Dale</p>
+                  <p>Architect & Engineer</p>
+                </div>
+
+                <div className={s.card__info__middle}>
+                  <img src={fb} alt="facebook_icon" />
+                  <img src={twitter} alt="twitter_icon" />
+                  <img src={lnkdn} alt="lnkdn_icon" />
+                  <img src={insta} alt="insta_icon" />
+                </div>
+
+                <div className={s.card__info__bottom}>
+                  <p>+1 (378) 400-1234 julie@email.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={s.flip_card}>
+            <div className={s.flip_card_inner}>
+              <div className={s.flip_card_front}>
+                <img src={photo1} alt="Avatar" className={s.front__img} />
+              </div>
+              <div className={s.flip_card_back}>
+
+                <div className={s.card__info__top}>
+                  <p>Patrick Dale</p>
+                  <p>Architect & Engineer</p>
+                </div>
+
+                <div className={s.card__info__middle}>
+                  <img src={fb} alt="facebook_icon" />
+                  <img src={twitter} alt="twitter_icon" />
+                  <img src={lnkdn} alt="lnkdn_icon" />
+                  <img src={insta} alt="insta_icon" />
+                </div>
+
+                <div className={s.card__info__bottom}>
+                  <p>+1 (378) 400-1234 julie@email.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </div>
-    </div>
-  </div>
 
-  <div className={s.card}>
-    <img src={photo2} alt="" className={s.card__image} />
-    <div className={s.card__info}>
-    <div className={s.card__info__top}>
-          <h4>Nattasha Julie</h4>
-          <p>Design, Australia</p>
-        </div>
-        <div className={s.card__info__middle}>
-          <img src={fb} alt="" />
-          <img src={twitter} alt="" />
-          <img src={lnkdn} alt="" />
-          <img src={insta} alt="" />
-        </div>
-      <div className={s.card__info__bottom}>
-      <p> 1 (378) 400-1234</p>
-      <p>julie@email.com</p>
-      </div>
     </div>
-  </div>
-
-  <div className={s.card}>
-    <img src={photo3} alt="" className={s.card__image} />
-    <div className={s.card__info}>
-    <div className={s.card__info__top}>
-          <h4>Marie Jiles</h4>
-          <p>Design, Australia</p>
-        </div>
-        <div className={s.card__info__middle}>
-          <img src={fb} alt="" />
-          <img src={twitter} alt="" />
-          <img src={lnkdn} alt="" />
-          <img src={insta} alt="" />
-        </div>
-      <div className={s.card__info__bottom}>
-      <p> 1 (378) 400-1234</p>
-      <p>julie@email.com</p>
-      </div>
-    </div>
-  </div>
-
-  <div className={s.card}>
-    <img src={photo1} alt="" className={s.card__image} />
-    <div className={s.card__info}>
-    <div className={s.card__info__top}>
-          <h4>Nattasha Julie</h4>
-          <p>Design, Australia</p>
-        </div>
-        <div className={s.card__info__middle}>
-          <img src={fb} alt="" />
-          <img src={twitter} alt="" />
-          <img src={lnkdn} alt="" />
-          <img src={insta} alt="" />
-        </div>
-      <div className={s.card__info__bottom}>
-      <p> 1 (378) 400-1234</p>
-      <p>julie@email.com</p>
-      </div>
-    </div>
-  </div>
-</div>
   )
 }
 

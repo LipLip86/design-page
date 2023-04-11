@@ -1,31 +1,28 @@
-.container_team__card_container {
-  display: flex;
-  max-width: 1920px;
-  max-height: 968px;
-  height: 100%;
-  background: #F4F0EC;
-  margin-top: 150px;
-  justify-content: space-evenly;
-
+.team {
+  background-color: #F4F0EC;
+  padding: 185px 0;
 }
-.container_team_main h3 {
-  margin: 0;
+
+.team__content_title {
   font-family: 'DM Serif Display', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 125%;
-  text-align: center;
   letter-spacing: 0.02em;
-  color: #292F36;}
 
-.container_team__card_container {
-  flex-direction: row;
-  justify-content: space-evenly;
+  color: #292F36;
+
+  max-width: 547px;
+  text-align: center;
+  margin: 0 auto;
 }
 
-.container_team__card_container img {
-  border-radius: 30px;
+.team__content_cards {
+  display: flex;
+  margin: 40px auto 0;
+  justify-content: space-between;
+  max-width: 1200px;
 }
 
 .card {
@@ -37,36 +34,35 @@
 .card__info {
   position: absolute;
   top: 70px;
-  left: 28.75px;
+  left: 28px;
   bottom: 125px;
   opacity: 0;
   display: flex;
   flex-direction: column;
-  /* transform: translateX(-100%) rotateY(-180deg);
-  transform: rotateY(180deg); */
 }
 
 .card__info__top {
-  flex-direction: column;
+  max-width: 200px;
+  margin: 70px auto 0;
   font-family: 'DM Serif Display', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
   line-height: 150%;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.01em;
   color: #292F36;
 }
 
 .card__info__middle {
-  display: flex !important;
+  margin: 65px auto 0;
+  max-width: 147px;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .card__info__bottom {
+  margin: 65px auto 0;
   font-family: 'Jost', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -101,13 +97,12 @@
 
 .flip_card {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 283px;
+  height: 433px;
   border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
 }
 
-/* This container is needed to position the front and back side */
 .flip_card_inner {
   position: relative;
   width: 100%;
@@ -140,13 +135,12 @@
 
 /* Style the back side */
 .flip_card_back {
-  background-color: #bbb;
+  background-color: #ffffff;
   color: black;
   border-radius: 30px;
   transform: rotateY(180deg);
 }
 
 .front__img {
-  width: 283px;
-  height: 433px;
+  border-radius: 30px;
 }
