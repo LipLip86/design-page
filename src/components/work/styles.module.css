@@ -6,6 +6,23 @@
   padding: 160px 115px;
 }
 
+.work__text {
+  text-align: center;
+      padding-bottom: 100px;
+}
+
+.work__text h2 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  text-align: center;
+  color: #363B41;
+
+}
+
+
 .container_work_main__text {
   margin-bottom: 100px;
 }
