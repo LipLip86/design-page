@@ -1,12 +1,26 @@
 import React from "react";
-import { AboutBanner, Quote, Services, Team, Form } from "../../components/index";
+import { Quote, Services, Team, Form } from "../../components/index";
+import { BannerTop } from "../../components/widgets";
+import bannerImage from '../../assets/about_ph.jpg'
+
 
 import s from './index.module.css';
 
 const About = () => {
+
+  const bannerTopData = {
+    img: bannerImage,
+    title: 'About Us',
+    subtitle: 'Home / About Us'
+  }
+
   return (
     <>
-      <AboutBanner />
+      <BannerTop
+        img={bannerTopData.img}
+        title={bannerTopData.title}
+        subtitle={bannerTopData.subtitle}
+        />
       <div className={s.container}>
         <Quote />
         <Services />

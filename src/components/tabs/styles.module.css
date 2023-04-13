@@ -16,7 +16,6 @@ border-radius: 18px;
 }
 
 .tabs button {
-  all: unset;
   font-family: 'Jost';
   font-style: normal;
   font-weight: 600;
@@ -39,4 +38,22 @@ color: #FFFFFF;
 }
 .title {
 
+}
+
+.images {
+  display: flex;
+  gap: 20px;
+  height: 1000px;
+}
+
+.images__image1 {
+  height: 500px;
+}
+
+.images__image2 {
+  height: 300px;
+}
+
+.active {
+  color: red !important;
 }
