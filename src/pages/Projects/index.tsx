@@ -1,10 +1,13 @@
 import React from "react";
 import s from './index.module.css';
+import { Tabs } from '../../components/index';
+import ProjectBanner from "../../components/ProjectBanner/ProjectBanner";
 
 const Projects = () => {
   return (
     <div>
-      It's Projects Page
+      <ProjectBanner />
+      <Tabs />
     </div>
   )
 }
