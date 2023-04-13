@@ -13,6 +13,7 @@ import Services from "./Services/Services";
 import Team from "./Team/Team";
 import Form from "./Form/Form";
 import Work from "./work/Work";
+import Tabs from "./tabs/Tabs";
 
 
 export {
@@ -30,5 +31,6 @@ export {
   Services,
   Team,
   Form,
-  Work
+  Work,
+  Tabs
 };
