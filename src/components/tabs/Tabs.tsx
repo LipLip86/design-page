@@ -12,6 +12,7 @@ import img6 from '../../assets/bedroom6.jpg'
 
 import img7 from '../../assets/bedroom7.jpg'
 import img8 from '../../assets/bedroom8.jpg'
+import { BaseButton } from '../ui';
 
 interface ITabs {
   id: string,
@@ -19,7 +20,13 @@ interface ITabs {
   title: string,
   content: string,
   image1: string,
-  image2: string
+  image2: string,
+  image3: string,
+  image4: string,
+  image5: string,
+  image6: string,
+  image7: string,
+  image8: string
 }
 
   const Tabs = (): JSX.Element => {
@@ -28,35 +35,59 @@ interface ITabs {
       const tabs: ITabs[] = [
           {
               id: '1',
-              tabTitle: 'Bathroom',
-              title: 'Title 1',
-              content: 'Las tabs se generan automáticamente a partir de un array de objetos, el cual tiene las propiedades: id, tabTitle, title y content.',
+              tabTitle: 'Bedroom',
+              title: 'Minimal Bedroom',
+              content: 'Decor / Architecture',
               image1: img1,
-              image2: img2
+              image2: img2,
+              image3: img3,
+              image4: img4,
+              image5: img5,
+              image6: img6,
+              image7: img7,
+              image8: img8
           },
           {
               id: '2',
-              tabTitle: 'Bedroom',
-              title: 'Title 2',
-              content: 'Contenido de tab 2.',
-              image1: img3,
-              image2: img4
+              tabTitle: 'Bathroom',
+              title: 'Minimal Bathroom',
+              content: 'Decor / Architecture',
+              image1: img4,
+              image2: img6,
+              image3: img3,
+              image4: img4,
+              image5: img4,
+              image6: img2,
+              image7: img7,
+              image8: img8
           },
           {
               id: '3',
               tabTitle: 'Kitchen',
-              title: 'Title 3',
-              content: 'Contenido de tab 3.',
-              image1: img5,
-              image2: img6
+              title: 'Minimal Kitchen',
+              content: 'Decor / Architecture',
+              image1: img1,
+              image2: img2,
+              image3: img3,
+              image4: img4,
+              image5: img5,
+              image6: img6,
+              image7: img7,
+              image8: img8
           },
           {
               id: '4',
               tabTitle: 'Living Area',
-              title: 'Title 4',
-              content: 'Contenido de tab 4.',
-              image1: img7,
-              image2: img8
+              title: 'Minimal Living Area',
+              content: 'Decor / Architecture',
+              image1: img5,
+              image2: img2,
+              image3: img3,
+              image4: img4,
+              image5: img1,
+              image6: img6,
+              image7: img7,
+              image8: img8
           }
       ];
 
@@ -72,27 +103,96 @@ interface ITabs {
                         key={i}
                         id={tab.id}
                         disabled={currentTab === `${tab.id}`}
-                        onClick={(handleTabClick)}
+                        onClick={handleTabClick}
                         className={currentTab === `${tab.id}` ? `${s.active}` : ''}
                     >
                         {tab.tabTitle}
                     </button>
                   )}
               </div>
-              <div className='content'>
+              <div className={s.content}>
                   {tabs.map((tab, i) =>
                       <div key={i}>
                         {
                         currentTab === `${tab.id}` &&
 
                             <div className={s.images}>
+                              <div className={s.images__left}>
                                 <div className={s.images__image1}>
                                     <img src={tab.image1} alt="img 1" />
                                 </div>
-                                <div className={s.images__image1}>
-                                    <img src={tab.image2} alt="img 2" />
+                                <div className={s.text}>
+                                    <h3> { tab.title }
+                                  </h3>
+                                  <p> { tab.content} </p>
+                                  <BaseButton />
+                                  </div>
+                                <div className={s.images__image2}>
+                                    <img src={tab.image3} alt="img 3" />
+                                    </div>
+                                    <div className={s.text}>
+                                    <h3> { tab.title }
+                                  </h3>
+                                  <p> { tab.content} </p>
+                                  </div>
+                                  <div className={s.images__image1}>
+                                  <img src={tab.image5} alt="img 5" />
+                                  </div>
+                                  <div className={s.text}>
+                                    <h3> { tab.title }
+                                  </h3>
+                                  <p> { tab.content} </p>
+                                  </div>
+                                  <div className={s.images__image2}>
+                                    <img src={tab.image7} alt="img 7" />
+                                    </div>
+                                <div className={s.text}>
+                                    <h3> { tab.title }
+                                  </h3>
+                                  <p> { tab.content} </p>
+                                  </div>
                                 </div>
+
+
+                                <div className={s.images__right}>
+                                <div className={s.images__image2}>
+                                    <img src={tab.image2} alt="img 2" />
+                                    </div>
+                                    <div className={s.text}>
+                                    <h3> { tab.title }
+                                  </h3>
+                                  <p> { tab.content} </p>
+                                  </div>
+
+                                <div className={s.images__image1}>
+                                    <img src={tab.image4} alt="img 4" />
+                                </div>
+                                  <div className={s.text}>
+                                    <h3> { tab.title }
+                                  </h3>
+                                  <p> { tab.content} </p>
+                                  </div>
+                                  <div className={s.images__image2}>
+                                    <img src={tab.image6} alt="img 6" />
+                                    </div>
+                                    <div className={s.text}>
+                                    <h3> { tab.title }
+                                  </h3>
+                                  <p> { tab.content} </p>
+                                  </div>
+                                  <div className={s.images__image2}>
+                                    <img src={tab.image8} alt="img 8" />
+                                    </div>
+                                    <div className={s.text}>
+                                    <h3> { tab.title }
+                                  </h3>
+                                  <p> { tab.content} </p>
+                                  </div>
+                                </div>
+
                             </div>
+
+
                         }
                       </div>
                   )}

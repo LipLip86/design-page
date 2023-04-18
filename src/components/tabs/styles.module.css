@@ -1,5 +1,5 @@
-.container {
-  /* width: 1201px; */
+.content {
+  width: 1201px;
 }
 
 .tabs {
@@ -7,12 +7,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-  gap: 60px;
   width: 880px;
   margin: 0 auto;
   border: 1px solid #CDA274;
-border-radius: 18px;
+  border-radius: 18px;
+  margin-bottom: 30px;
+  height: 75px;
 }
 
 .tabs button {
@@ -20,40 +20,62 @@ border-radius: 18px;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
+  color: #292F36;
+  padding: 20px;
+  height: inherit;
+}
+
+.images {
+  width: 1201px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.images__left {
+  display: flex;
+  flex-direction: column;
+/* row-gap: 40px; */
+}
+
+.images__right {
+  display: flex;
+  flex-direction: column;
+/* row-gap: 40px; */
+}
+
+.images__image1 {
+  height: 853px;
+}
+
+.images__image2 {
+  height: 522px;
+}
+
+.active {
+  background-color: #CDA274;
+  border-radius: 18px;
+  color: #FFFFFF !important;
+}
+
+.images h3 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
   line-height: 125%;
   color: #292F36;
 }
 
-.tabs button:active {
+.images p {
   font-family: 'Jost';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.02em;
-
-color: #FFFFFF;
-}
-.title {
-
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #4D5053;
 }
 
-.images {
-  display: flex;
-  gap: 20px;
-  height: 1000px;
-}
-
-.images__image1 {
-  height: 500px;
-}
-
-.images__image2 {
-  height: 300px;
-}
-
-.active {
-  color: red !important;
+.text {
+  padding: 25px 0;
 }
