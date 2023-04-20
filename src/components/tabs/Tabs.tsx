@@ -17,16 +17,21 @@ import { BaseButton } from '../ui';
 interface ITabs {
   id: string,
   tabTitle: string,
-  title: string,
-  content: string,
-  image1: string,
-  image2: string,
-  image3: string,
-  image4: string,
-  image5: string,
-  image6: string,
-  image7: string,
-  image8: string
+  view?: any,
+  viewTwo?: any,
+  viewThree?: any,
+  viewFour?: any,
+  viewFive?: object,
+  title?: string,
+  content?: string,
+  image1?: string,
+  image2?: string,
+  image3?: string,
+  image4?: string,
+  image5?: string,
+  image6?: string,
+  image7?: string,
+  image8?: string
 }
 
   const Tabs = (): JSX.Element => {
@@ -36,13 +41,31 @@ interface ITabs {
           {
               id: '1',
               tabTitle: 'Bedroom',
-              title: 'Minimal Bedroom',
-              content: 'Decor / Architecture',
-              image1: img1,
-              image2: img2,
-              image3: img3,
-              image4: img4,
-              image5: img5,
+              view: {
+                title: 'Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image1: img1,
+              },
+              viewTwo: {
+                title: 'Classic Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image2: img2,
+              },
+              viewThree: {
+                title: 'Minimal Bedroom Table',
+                content: 'Decor / Architecture',
+                image3: img3,
+              },
+              viewFour: {
+                title: 'Modern Bedroom',
+                content: 'Decor / Architecture',
+                image4: img4,
+              },
+              viewFive: {
+                title: 'Modern Bedroom',
+                content: 'Decor / Architecture',
+                image5: img5,
+              },
               image6: img6,
               image7: img7,
               image8: img8
@@ -117,6 +140,9 @@ interface ITabs {
                         currentTab === `${tab.id}` &&
 
                             <div className={s.images}>
+                              {/* {tabs.map((view) =>
+                              <div key={i}}> */}
+
                               <div className={s.images__left}>
                                 <div className={s.images__image1}>
                                     <img src={tab.image1} alt="img 1" />
@@ -125,7 +151,6 @@ interface ITabs {
                                     <h3> { tab.title }
                                   </h3>
                                   <p> { tab.content} </p>
-                                  <BaseButton />
                                   </div>
                                 <div className={s.images__image2}>
                                     <img src={tab.image3} alt="img 3" />
