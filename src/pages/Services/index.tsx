@@ -1,10 +1,9 @@
 import React from "react";
 import s from './index.module.css';
-import ServiceBanner from "../../components/service_banner/ServiceBanner";
-import { Contacts } from "../../components";
-import { StageCard } from "../../components";
+import { Contacts, StageCard, Work } from "../../components";
 import { servicesCardsConfig } from "../../configs/servicesCardsConfig";
-import { Work } from "../../components";
+import bannerImage from '../../assets/about_ph.jpg'
+import { BannerTop } from "../../components/widgets";
 
 interface ICard {
   title: string,
@@ -12,10 +11,20 @@ interface ICard {
   link: string
 }
 
+const bannerTopData = {
+  img: bannerImage,
+  title: 'About Us',
+  subtitle: 'Home / About Us'
+}
+
 const Services = () => {
   return (
     <>
-    <ServiceBanner />
+    <BannerTop
+      img={bannerTopData.img}
+      title={bannerTopData.title}
+      subtitle={bannerTopData.subtitle}
+    />
     <div className={s.container}>
       <div className={s.subcontent}>
       {

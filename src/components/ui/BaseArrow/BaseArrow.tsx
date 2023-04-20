@@ -1,12 +1,17 @@
 import React from 'react'
-import arrow from '../../../assets/arrow.svg'
 import s from './styles.module.css'
 
-const BaseArrow = (props: any) => {
-  const { variant, color, disabled, click } = props;
-  return (
-    <div>
+interface IProps {
+  img: string,
+  colorBg: string
+}
 
+const BaseArrow = (props: IProps) => {
+  const { img, colorBg } = props;
+
+  return (
+    <div className={s.circle} style={{backgroundColor: colorBg }}>
+      <img src={img} alt="" />
     </div>
   )
 }

@@ -1,5 +1,7 @@
 .content {
-  width: 1201px;
+  width: 100%;
+  max-width: 1201px;
+  margin: 0 auto;
 }
 
 .tabs {
@@ -35,21 +37,11 @@
 .images__left {
   display: flex;
   flex-direction: column;
-/* row-gap: 40px; */
 }
 
 .images__right {
   display: flex;
   flex-direction: column;
-/* row-gap: 40px; */
-}
-
-.images__image1 {
-  height: 853px;
-}
-
-.images__image2 {
-  height: 522px;
 }
 
 .active {
