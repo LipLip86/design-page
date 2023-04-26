@@ -12,8 +12,12 @@ const BaseArrow = (props: IProps) => {
 
   return (
     <div className={s.circle} style={{backgroundColor: colorBg }}>
-      <img src={img} alt="" />
-      <p>{children}</p>
+      {
+        img ?? <img src={img} alt="" />
+      }
+      {
+        children ?? <p>{children}</p>
+      }
     </div>
   )
 }
