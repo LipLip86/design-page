@@ -1,0 +1,78 @@
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  max-width: 1157px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 100px;
+
+}
+
+.postContainer h2 {
+  margin: 0;
+  font-family: 'DM Serif Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292F36;
+}
+
+.postBlock {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #E7E7E7;
+  border-radius: 62px;
+  padding: 20px;
+}
+
+.postBlock img {
+  border-radius: 30px;
+}
+
+.postText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  margin-right: 76PX;
+}
+
+
+.postText h3 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #292F36;
+
+}
+
+.postText p {
+  display: flex;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  /* or 33px */
+  letter-spacing: 0.01em;
+  color: #4D5053;
+}
+
+.postText__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.postText__bottom p {
+  font-family: 'Jost';
+  font-size: 16px;
+}

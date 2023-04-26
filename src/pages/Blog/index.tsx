@@ -4,6 +4,8 @@ import { BannerTop } from "../../components/widgets";
 import img1 from '../../assets/blog_ph.jpg'
 import { BaseArrow } from "../../components/ui";
 import arrow from '../../assets/arrow.svg'
+import Post from "../../components/post/Post";
+import Blg from "../../components/Blog/Blog";
 
 const Blog = () => {
   return (
@@ -13,8 +15,14 @@ const Blog = () => {
         title="Articles / News"
         subtitle="Home / Blog"
       />
+      <Post />
+      <Blg />
+      <div className={s.pages}>
+      <BaseArrow colorBg='#F4F0EC'> 01 </BaseArrow>
+      <BaseArrow colorBg='#F4F0EC'> 02 </BaseArrow>
+      <BaseArrow colorBg='#F4F0EC'> 03 </BaseArrow>
       <BaseArrow img={arrow} colorBg='#F4F0EC' />
-      <BaseArrow img={arrow} colorBg='#424791' />
+      </div>
     </div>
   )
 }

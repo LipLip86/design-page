@@ -1,0 +1,15 @@
+img {
+  size: 5px;
+}
+
+.pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.pages:hover {
+  color: aqua;
+}
