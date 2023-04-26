@@ -21,7 +21,7 @@ const Blog = () => {
       <BaseArrow colorBg='#F4F0EC'> 01 </BaseArrow>
       <BaseArrow colorBg='#F4F0EC'> 02 </BaseArrow>
       <BaseArrow colorBg='#F4F0EC'> 03 </BaseArrow>
-      <BaseArrow img={arrow} colorBg='#F4F0EC' />
+      <BaseArrow imgUrl={arrow} colorBg='#F4F0EC' />
       </div>
     </div>
   )

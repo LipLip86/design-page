@@ -18,7 +18,7 @@ const Post: any= () => {
               Lorem Ipsum is not simply random text. It has roots in a piece of classica.</p>
               <div className={s.postText__bottom}>
                   <p>26 December,2022</p>
-                  <BaseArrow img={arrow} colorBg='#F4F0EC' />
+                  <BaseArrow imgUrl={arrow} colorBg='#F4F0EC' />
               </div>
         </div>
 
