@@ -5,7 +5,7 @@ import TestimonialCard from "./TestimonialCard/TestimonialCard";
 import Clients from "./Clients/Clients";
 import Projects from "./Projects/Projects";
 import Counter from "./Counter/Counter";
-import Blog from "./Blog/Blog";
+import Blog from "./CommonCard/CommonCard";
 import Contacts from "./Contacts/Contacts";
 import AboutBanner from "./AboutBanner/AboutBanner";
 import Quote from "./Quote/Quote";
