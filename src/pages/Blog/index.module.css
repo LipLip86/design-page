@@ -1,0 +1,30 @@
+img {
+  size: 5px;
+}
+
+.pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.container_text {
+  margin-top: 150px;
+}
+
+.container_text h2 {
+  font-family: 'DM Serif Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292F36;
+  text-align: center;
+}
+
+.pages:hover {
+  color: aqua;
+}

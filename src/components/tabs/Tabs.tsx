@@ -1,44 +1,222 @@
 import React, { useState } from 'react';
 import s from './styles.module.css'
-import img1 from '../../assets/bedroom1.jpg'
 
-// interface ITabs {
-//   id: number,
-//   tabtTitle: string,
-//   title: string,
-//   content: string
-// }
+import img1 from '../../assets/bedroom.jpg'
+import img2 from '../../assets/bedroom2.jpg'
 
-  const Tabs: any = () => {
+import img3 from '../../assets/bedroom3.jpg'
+import img4 from '../../assets/bedroom4.jpg'
+
+import img5 from '../../assets/bedroom5.jpg'
+import img6 from '../../assets/bedroom6.jpg'
+
+import img7 from '../../assets/bedroom7.jpg'
+import img8 from '../../assets/bedroom8.jpg'
+
+interface ITabs {
+  id: string,
+  tabTitle: string,
+  viewsLeft?: any,
+  viewsRight?: any
+}
+
+  const Tabs = (): JSX.Element => {
     const [currentTab, setCurrentTab] = useState('1');
 
-      const tabs = [
+      const tabs: ITabs[] = [
           {
               id: '1',
               tabTitle: 'Bathroom',
-              title: 'Title 1',
-              content: 'Las tabs se generan automáticamente a partir de un array de objetos, el cual tiene las propiedades: id, tabTitle, title y content.'
+              viewsLeft: [
+                {
+                  title: 'Minimal Bedroom',
+                  content: 'Decor / Architecture',
+                  image: img1,
+                },
+                {
+                  title: 'Classic Minimal Bedroom',
+                  content: 'Decor / Architecture',
+                  image: img3,
+                },
+                {
+                  title: 'Minimal Bedroom Table',
+                  content: 'Decor / Architecture',
+                  image: img5,
+                },
+                {
+                  title: 'Modern Bedroom',
+                  content: 'Decor / Architecture',
+                  image: img7,
+                }
+              ],
+              viewsRight: [
+                {
+                  title: 'Minimal Bedroom',
+                  content: 'Decor / Architecture',
+                  image: img2,
+                },
+                {
+                  title: 'Classic Minimal Bedroom',
+                  content: 'Decor / Architecture',
+                  image: img4,
+                },
+                {
+                  title: 'Minimal Bedroom Table',
+                  content: 'Decor / Architecture',
+                  image: img6,
+                },
+                {
+                  title: 'Modern Bedroom',
+                  content: 'Decor / Architecture',
+                  image: img8,
+                }
+              ]
           },
           {
-              id: '2',
-              tabTitle: 'Bedroom',
-              title: 'Title 2',
-              content: 'Contenido de tab 2.'
+            id: '2',
+            tabTitle: 'Bedroom',
+            viewsLeft: [
+              {
+                title: 'Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image: img1,
+              },
+              {
+                title: 'Classic Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image: img3,
+              },
+              {
+                title: 'Minimal Bedroom Table',
+                content: 'Decor / Architecture',
+                image: img5,
+              },
+              {
+                title: 'Modern Bedroom',
+                content: 'Decor / Architecture',
+                image: img7,
+              }
+            ],
+            viewsRight: [
+              {
+                title: 'Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image: img2,
+              },
+              {
+                title: 'Classic Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image: img4,
+              },
+              {
+                title: 'Minimal Bedroom Table',
+                content: 'Decor / Architecture',
+                image: img6,
+              },
+              {
+                title: 'Modern Bedroom',
+                content: 'Decor / Architecture',
+                image: img8,
+              }
+            ]
           },
           {
-              id: '3',
-              tabTitle: 'Kitchen',
-              title: 'Title 3',
-              content: 'Contenido de tab 3.'
+            id: '3',
+            tabTitle: 'Kitchen',
+            viewsLeft: [
+              {
+                title: 'Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image: img1,
+              },
+              {
+                title: 'Classic Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image: img3,
+              },
+              {
+                title: 'Minimal Bedroom Table',
+                content: 'Decor / Architecture',
+                image: img5,
+              },
+              {
+                title: 'Modern Bedroom',
+                content: 'Decor / Architecture',
+                image: img7,
+              }
+            ],
+            viewsRight: [
+              {
+                title: 'Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image: img2,
+              },
+              {
+                title: 'Classic Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image: img4,
+              },
+              {
+                title: 'Minimal Bedroom Table',
+                content: 'Decor / Architecture',
+                image: img6,
+              },
+              {
+                title: 'Modern Bedroom',
+                content: 'Decor / Architecture',
+                image: img8,
+              }
+            ]
           },
           {
-              id: '4',
-              tabTitle: 'Living Area',
-              title: 'Title 4',
-              content: 'Contenido de tab 4.'
-          }
+            id: '4',
+            tabTitle: 'Living Area',
+            viewsLeft: [
+              {
+                title: 'Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image: img1,
+              },
+              {
+                title: 'Classic Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image: img3,
+              },
+              {
+                title: 'Minimal Bedroom Table',
+                content: 'Decor / Architecture',
+                image: img5,
+              },
+              {
+                title: 'Modern Bedroom',
+                content: 'Decor / Architecture',
+                image: img7,
+              }
+            ],
+            viewsRight: [
+              {
+                title: 'Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image: img2,
+              },
+              {
+                title: 'Classic Minimal Bedroom',
+                content: 'Decor / Architecture',
+                image: img4,
+              },
+              {
+                title: 'Minimal Bedroom Table',
+                content: 'Decor / Architecture',
+                image: img6,
+              },
+              {
+                title: 'Modern Bedroom',
+                content: 'Decor / Architecture',
+                image: img8,
+              }
+            ]
+          },
       ];
-
 
       const handleTabClick = (event: any) => {
           setCurrentTab(event.target.id);
@@ -48,19 +226,56 @@ import img1 from '../../assets/bedroom1.jpg'
           <div className={s.container}>
               <div className={s.tabs}>
                   {tabs.map((tab, i) =>
-                      <button key={i} id={tab.id} disabled={currentTab === `${tab.id}`} onClick={(handleTabClick)}>{tab.tabTitle}</button>
+                    <button
+                        key={i}
+                        id={tab.id}
+                        disabled={currentTab === `${tab.id}`}
+                        onClick={handleTabClick}
+                        className={currentTab === `${tab.id}` ? `${s.active}` : ''}
+                    >
+                        {tab.tabTitle}
+                    </button>
                   )}
               </div>
-              <div className='content'>
-                  {tabs.map((tab, i) =>
-                      <div key={i}>
-                          {currentTab === `${tab.id}` &&
-                          <div>
-                            <p className={s.title}>{tab.title}</p>
-                            <p>{tab.content}</p>
-                            </div>}
+              <div className={s.content}>
+                  {
+                    tabs.map((tab: any) => 
+                      <div key={tab.id} className={s.images}>
+                      <div className={s.images__left}>
+                        {
+                          currentTab === `${tab.id}` &&
+                            tab.viewsLeft.map((view: any, ind: number) =>
+                            <>
+                                <div key={ind} className={s.images__image1}>
+                                  <img src={view.image} alt="img 1" />
+                                </div>
+                                <div className={s.text}>
+                                  <h3> { view.title } </h3>
+                                  <p> { view.content } </p>
+                                </div>
+                            </>
+                            )
+                        }
                       </div>
-                  )}
+                      <div className={s.images__right}>
+                        {
+                          currentTab === `${tab.id}` &&    
+                              tab.viewsRight.map((view: any) =>
+                              <>
+                                <div className={s.images__image2}>
+                                  <img src={view.image} alt="img 2" />
+                                </div>
+                                <div className={s.text}>
+                                  <h3> { view.title } </h3>
+                                  <p> { view.content} </p>
+                                </div>
+                                 </>
+                              )
+                        }
+                          </div>
+                      </div>
+                    )
+                  }
               </div>
           </div>
       );
