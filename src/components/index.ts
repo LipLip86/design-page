@@ -32,5 +32,5 @@ export {
   Team,
   Form,
   Work,
-  Tabs
+  Tabs,
 };

@@ -1,11 +1,11 @@
 import React from "react";
 import s from "./styles.module.css";
+import { IForm } from "../../utils/types";
 
-const form: any = () => {
+const Form: any = () => {
 
   return (
     <div className={s.form_container_main}>
-      <h3>Creative project? Let's have a productive talk.</h3>
       <form className={s.form}>
         <div className={s.input_names}>
           <input type="text" placeholder="Name" className={s.input} />
@@ -23,4 +23,4 @@ const form: any = () => {
   )
 }
 
-export default form;
+export default Form;
