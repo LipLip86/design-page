@@ -3,6 +3,7 @@ import s from './index.module.css';
 import { BannerTop } from '../../components/widgets';
 import img1 from '../../assets/contacts_ph.jpg'
 import { Form } from '../../components';
+import Map from '../../components/Map/Map';
 
 const Contact = () => {
   return (
@@ -15,6 +16,7 @@ const Contact = () => {
         <h3>We love meeting new people and helping them. </h3>
       </div>
       <Form />
+      <Map />
     </div>
   )
 }
