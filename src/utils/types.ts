@@ -1,4 +1,5 @@
 export interface ICommonCard {
+  id: number,
   imgUrl: string,
   span: string,
   text: string,
@@ -12,6 +13,16 @@ export interface IForm {
   label: string
 }
 
+fix/fix-errors
+// --- --- --- --- --- Projects Page --- --- --- --- ---
+
+export interface ITabs {
+  id: string;
+  tabTitle: string;
+  viewsLeft?: any;
+  viewsRight?: any;
+}
+
 export interface ICard {
   title: string,
   text: string,
@@ -19,3 +30,4 @@ export interface ICard {
   className?: string
 }
 
+new_page

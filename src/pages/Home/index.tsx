@@ -25,6 +25,7 @@ const cardData = {
 
   const post: ICommonCard [] = [
     {
+      id: 1,
       imgUrl: img1,
       span: "Kitchen Design",
       text: "Low Cost Latest Invented Interior Designing Ideas",
@@ -32,6 +33,7 @@ const cardData = {
       button: arrow
     },
     {
+      id: 2,
       imgUrl: img2,
       span: "Living Design",
       text: "Let's Get Solution For Building Construction Work",
@@ -39,6 +41,7 @@ const cardData = {
       button: arrow
     },
     {
+      id: 3,
       imgUrl: img3,
       span: "Interior Design",
       text: "Best For Any Office & Business Interior Solution",
