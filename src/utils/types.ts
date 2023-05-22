@@ -5,3 +5,17 @@ export interface ICommonCard {
   date: string,
   button: string
 }
+
+export interface IForm {
+  name: string,
+  value: string,
+  label: string
+}
+
+export interface ICard {
+  title: string,
+  text: string,
+  link: string,
+  className?: string
+}
+
