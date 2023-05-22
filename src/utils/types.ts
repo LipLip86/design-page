@@ -13,6 +13,7 @@ export interface IForm {
   label: string
 }
 
+fix/fix-errors
 // --- --- --- --- --- Projects Page --- --- --- --- ---
 
 export interface ITabs {
@@ -21,3 +22,12 @@ export interface ITabs {
   viewsLeft?: any;
   viewsRight?: any;
 }
+
+export interface ICard {
+  title: string,
+  text: string,
+  link: string,
+  className?: string
+}
+
+new_page

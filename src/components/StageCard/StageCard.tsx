@@ -1,11 +1,9 @@
 import React from 'react';
 import s from './styles.module.css';
+import { ICard } from '../../utils/types';
 
-interface ICard {
-  title: string,
-  text: string,
-  link: string,
-  className?: string
+interface IProps {
+  
 }
 
 const StageCard = (props: ICard): JSX.Element => {
