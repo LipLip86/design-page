@@ -1,14 +1,16 @@
-import React from 'react';
-import s from './styles.module.css';
-import logo from './Logo.svg';
-import search from './Search.svg';
+import React from "react";
+import s from "./styles.module.css";
+import logo from "./Logo.svg";
+import search from "./Search.svg";
 import { NavLink } from "react-router-dom";
 
 const Header: any = () => {
   return (
     <div className={s.container}>
       <div className={s.logo}>
-        <img src={logo} alt='logo' />
+        <NavLink to="/" className={s.nav__list_link}>
+          <img src={logo} alt="logo" />
+        </NavLink>
       </div>
       <div className={s.nav}>
         <ul className={s.nav__list}>
@@ -47,8 +49,8 @@ const Header: any = () => {
       <div>
         <img src={search} alt="search icon" />
       </div>
-  </div>
-  )
-}
+    </div>
+  );
+};
 
 export default Header;

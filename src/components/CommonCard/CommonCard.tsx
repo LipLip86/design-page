@@ -14,7 +14,7 @@ interface IProps {
         <div className={s.container_pictures}>
           {
             posts.map((post: ICommonCard) =>  {
-              return <div className={s.container_card}>
+              return <div key={post.id} className={s.container_card}>
                   <div className={s.card_top}>
                     <img src={ post.imgUrl } alt="project"/>
                     <span>{post.span}</span>
