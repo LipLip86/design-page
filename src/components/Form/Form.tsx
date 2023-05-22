@@ -2,6 +2,10 @@ import React from "react";
 import s from "./styles.module.css";
 import { IForm } from "../../utils/types";
 
+// interface IProps {
+//   IForm []
+// }
+
 const Form: any = () => {
 
   return (

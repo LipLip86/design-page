@@ -11,3 +11,11 @@ export interface IForm {
   value: string,
   label: string
 }
+
+export interface ICard {
+  title: string,
+  text: string,
+  link: string,
+  className?: string
+}
+

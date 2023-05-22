@@ -16,6 +16,7 @@
   flex-direction: row;
   padding: 151px 0;
   gap: 50px;
+  align-items: center;
 }
 
 .counter_inner_item h3, p {
