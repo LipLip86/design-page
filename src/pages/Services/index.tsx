@@ -6,6 +6,7 @@ import bannerImage from '../../assets/about_ph.jpg'
 import { BannerTop } from "../../components/widgets";
 
 interface ICard {
+  id: number,
   title: string,
   text: string,
   link: string
@@ -30,7 +31,7 @@ const Services = () => {
       {
         servicesCardsConfig.map((item: ICard) => (
           <StageCard
-            key={item.title}
+            key={item.id}
             title={item.title}
             text={item.text}
             link={item.link}

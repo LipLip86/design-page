@@ -11,6 +11,7 @@ import img2 from "../../assets/blog_ph2.jpg";
 import img3 from "../../assets/blog_ph3.jpg";
 
 interface ICommonCard {
+  id: number,
   imgUrl: string,
   span: string,
   text: string,
@@ -20,6 +21,7 @@ interface ICommonCard {
 
   const post: ICommonCard [] = [
     {
+      id: 1,
       imgUrl: img1,
       span: "Kitchen Design",
       text: "Low Cost Latest Invented Interior Designing Ideas",
@@ -27,6 +29,7 @@ interface ICommonCard {
       button: arrow
     },
     {
+      id: 2,
       imgUrl: img2,
       span: "Living Design",
       text: "Let's Get Solution For Building Construction Work",
@@ -34,6 +37,7 @@ interface ICommonCard {
       button: arrow
     },
     {
+      id: 3,
       imgUrl: img3,
       span: "Interior Design",
       text: "Best For Any Office & Business Interior Solution",
@@ -41,6 +45,7 @@ interface ICommonCard {
       button: arrow
     },
     {
+      id: 4,
       imgUrl: img1,
       span: "Kitchen Design",
       text: "Low Cost Latest Invented Interior Designing Ideas",
@@ -48,6 +53,7 @@ interface ICommonCard {
       button: arrow
     },
     {
+      id: 5,
       imgUrl: img2,
       span: "Living Design",
       text: "Let's Get Solution For Building Construction Work",
@@ -55,6 +61,7 @@ interface ICommonCard {
       button: arrow
     },
     {
+      id: 6,
       imgUrl: img3,
       span: "Interior Design",
       text: "Best For Any Office & Business Interior Solution",
