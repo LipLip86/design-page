@@ -13,9 +13,6 @@ export interface IForm {
   label: string
 }
 
-fix/fix-errors
-// --- --- --- --- --- Projects Page --- --- --- --- ---
-
 export interface ITabs {
   id: string;
   tabTitle: string;
@@ -29,5 +26,3 @@ export interface ICard {
   link: string,
   className?: string
 }
-
-new_page
