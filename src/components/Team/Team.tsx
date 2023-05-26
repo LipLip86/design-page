@@ -3,10 +3,10 @@ import s from "./styles.module.css";
 import photo1 from "../../assets/Photo_team.jpg";
 import photo2 from "../../assets/Photo_team2.jpg";
 import photo3 from "../../assets/Photo_team3.jpg";
-import fb from "../../assets/fb.svg";
-import twitter from "../../assets/twitter.svg";
-import lnkdn from "../../assets/Lnkdn.svg";
-import insta from "../../assets/insta.svg";
+import fb from '../../assets/social_media_icons/fb.svg';
+import twitter from '../../assets/social_media_icons/twitter.svg';
+import lnkdn from '../../assets/social_media_icons/Lnkdn.svg';
+import insta from '../../assets/social_media_icons/insta.svg';
 
 const Team: any = () => {
 

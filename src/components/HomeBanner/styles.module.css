@@ -17,7 +17,6 @@
   font-size: 65px;
   line-height: 125%;
   color: #292F36;
-
 }
 
 .text_block {
@@ -44,4 +43,8 @@
   box-shadow: 0 10px 20px;
   margin-left: 60px;
   margin-top: 20px;
+  cursor: pointer;
+  background-image: url(/static/media/Vector.6a00699d.svg);
+  background-repeat: no-repeat;
+  background-position: right 24px center;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from './Photomain.jpg'
+import photo from '../../assets/homebanner/Photomain.jpg'
 import s from './styles.module.css';
 
 const HomeBanner: any = () => {

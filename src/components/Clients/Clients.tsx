@@ -1,10 +1,10 @@
 import React from "react";
 import s from './styles.module.css'
-import img1 from './01.svg'
-import img2 from './02.svg'
-import img3 from './03.svg'
-import img4 from './04.svg'
-import img5 from './05.svg'
+import img1 from '../../assets/clients_logos/01.svg'
+import img2 from '../../assets/clients_logos/02.svg'
+import img3 from '../../assets/clients_logos/03.svg'
+import img4 from '../../assets/clients_logos/04.svg'
+import img5 from '../../assets/clients_logos/05.svg'
 
 
 const Clients: any = () => {

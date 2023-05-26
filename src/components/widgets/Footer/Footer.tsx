@@ -1,10 +1,10 @@
 import React from "react";
 import s from "./styles.module.css"
 import logo from "../../../assets/Logo.svg";
-import fb from "../../../assets/fb.svg";
-import twitter from "../../../assets/twitter.svg";
-import lnkdn from "../../../assets/Lnkdn.svg";
-import insta from "../../../assets/insta.svg";
+import fb from '../../../assets/social_media_icons/fb.svg';
+import twitter from '../../../assets/social_media_icons/twitter.svg';
+import lnkdn from '../../../assets/social_media_icons/Lnkdn.svg';
+import insta from '../../../assets/social_media_icons/insta.svg';
 
 const Footer: any = () => {
   return (

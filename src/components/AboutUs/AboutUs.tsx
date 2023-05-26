@@ -1,9 +1,12 @@
 import React from 'react';
-import imageround from './Imageround.png';
 import s from './styles.module.css'
-import callicon from './Callicon.jpg'
+import callicon from '../../assets/about_us/Callicon.jpg'
+import imageround from '../../assets/about_us/Imageround.png'
+import { BaseButton } from '../ui';
 
 const AboutUs: any = () => {
+
+  const children = "Get the Estimate";
   return (
     <div className={s.container2}>
       <div className={s.content}>
@@ -28,9 +31,14 @@ const AboutUs: any = () => {
             </p>
           </div>
         </div>
-        <div className={s.button}>
+        <BaseButton
+              variant="default"
+              color="blue"
+            >{children}
+            </BaseButton>
+        {/* <div className={s.button}>
           Get The Estimate
-        </div>
+        </div> */}
       </div>
       <div>
         <img src={imageround} alt="bg"/>
