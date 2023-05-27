@@ -8,7 +8,7 @@ interface IButton {
   disabled?: boolean,
   children: any,
   click?: () => {},
-  rightIcon: boolean
+  rightIcon?: boolean
 }
 
 const BaseButton = (props: IButton) => {

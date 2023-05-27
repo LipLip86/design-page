@@ -28,7 +28,7 @@ const Tabs = (): JSX.Element => {
         {tabs.map((tab: ITab) => (
           <div className={s.images}>
             <div className={s.images__left}>
-              {currentTab === `${tab.id}` &&
+              {currentTab === `${tab.id}` && tab.viewsLeft &&
                 tab.viewsLeft.map((view: IView, ind: number) => (
                   <>
                     <div className={s.images__image1}>
@@ -42,7 +42,7 @@ const Tabs = (): JSX.Element => {
                 ))}
             </div>
             <div className={s.images__right}>
-              {currentTab === `${tab.id}` &&
+              {currentTab === `${tab.id}` && tab.viewsRight &&
                 tab.viewsRight.map((view: IView, ind: number) => (
                   <>
                     <div className={s.images__image2}>
