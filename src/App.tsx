@@ -1,15 +1,15 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import { Header, Footer } from "./components/widgets/index"
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import { Header, Footer } from "./components/widgets/index";
 
-import Home from './pages/Home';
-import About from './pages/About';
+import Home from "./pages/Home";
+import About from "./pages/About";
 import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 
-import s from './App.module.css'
+import s from "./App.module.css";
 
 function App() {
   return (
@@ -26,8 +26,8 @@ function App() {
         </Routes>
       </div>
       <Footer />
-  </>
-  )
+    </>
+  );
 }
 
 export default App;

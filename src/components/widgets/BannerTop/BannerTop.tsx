@@ -1,25 +1,24 @@
-import s from './styles.module.css'
+import s from "./styles.module.css";
 import React from "react";
 
 interface IProps {
-    img: string,
-    title: string,
-    subtitle: string
+  img: string;
+  title: string;
+  subtitle: string;
 }
 
 const BannerTop: any = (props: IProps) => {
+  const { img, title, subtitle } = props;
 
-    const { img, title, subtitle } = props
+  return (
+    <div className={s.container}>
+      <img src={img} alt="banner" className={s.banner} />
+      <div className={s.container__text}>
+        <h3>{title}</h3>
+        <p>{subtitle}</p>
+      </div>
+    </div>
+  );
+};
 
-    return (
-        <div className={s.container}>
-            <img src={ img } alt="banner" className={s.banner}/>
-            <div className={s.container__text}>
-                <h3>{ title }</h3>
-                <p>{ subtitle }</p>
-            </div>
-        </div>
-    )
-}
-
-export default BannerTop
+export default BannerTop;

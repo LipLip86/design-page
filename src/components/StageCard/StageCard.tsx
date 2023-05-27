@@ -1,26 +1,19 @@
-import React from 'react';
-import s from './styles.module.css';
-import { ICard } from '../../utils/types';
+import React from "react";
+import s from "./styles.module.css";
+import { ICard } from "../../utils/types";
 
-interface IProps {
-  
-}
+interface IProps {}
 
 const StageCard = (props: ICard): JSX.Element => {
-  const {
-    title,
-    text,
-    link,
-    className
-  } = props
-  const cls = `${s.container} ${className}`
+  const { title, text, link, className } = props;
+  const cls = `${s.container} ${className}`;
   return (
     <div className={cls}>
       <h2>{title}</h2>
       <p className={s.text}>{text}</p>
       <a href="">{link}</a>
     </div>
-  )
-}
+  );
+};
 
 export default StageCard;

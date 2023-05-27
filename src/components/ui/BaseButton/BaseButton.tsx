@@ -1,6 +1,6 @@
-import s from './styles.module.css'
+import s from "./styles.module.css";
 import React from "react";
-import arrow from '../../../assets/arrow.svg'
+import arrow from "../../../assets/ButtonIcons/right-icon.svg";
 
 const BaseButton = (props: any) => {
   const { variant, color, disabled, children, click, rightIcon } = props;
@@ -14,21 +14,14 @@ const BaseButton = (props: any) => {
   // console.log('currentStyle :', currentStyle)
 
   return (
-    <button
-      className={currentStyle}
-      disabled={disabled}
-      onClick={click}
-    >
-      {children}
-      {
-        rightIcon &&
-        <img
-          className={s.img}
-          src={arrow}
-          alt="arrow right"
-        />
-      }
-    </button>
+    <>
+      <button className={currentStyle} disabled={disabled} onClick={click}>
+        <div className={s.content}>
+          {children}
+          {rightIcon && <img className={s.img} src={arrow} alt="arrow right" />}
+        </div>
+      </button>
+    </>
   );
 };
 

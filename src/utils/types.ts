@@ -26,3 +26,10 @@ export interface ICard {
   link: string,
   className?: string
 }
+
+// -- -- -- -- -- -- -- Home Page  -- -- -- -- -- -- --
+export interface IStageCard {
+  title: string;
+  text: string;
+  link: string;
+}

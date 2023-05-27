@@ -12,7 +12,7 @@ const Tabs = (): JSX.Element => {
   return (
     <div className={s.container}>
       <div className={s.tabs}>
-        {tabs.map(tab => (
+        {tabs.map((tab) => (
           <button
             id={tab.id}
             disabled={currentTab === `${tab.id}`}

@@ -14,26 +14,29 @@ const Work: any = () => {
     <div className={s.work}>
       <div className={s.work__text}>
         <h2>How We Work</h2>
-        <p>It is a long established fact will be distracted. Lorem Ipsum is simply dummy
-        text of the printing and typesetting industry.</p>
+        <p>
+          It is a long established fact will be distracted. Lorem Ipsum is simply dummy text of the
+          printing and typesetting industry.
+        </p>
       </div>
 
       <div className={s.container_work_main__picture_block}>
         <div className={s.container_work_main__picture_block__left}>
-        <img src={img1} alt="work" />
-      </div>
+          <img src={img1} alt="work" />
+        </div>
         <div className={s.container_work_main__picture_block__right}>
           <div className={s.container_work_main__picture_block__right__top}>
-          <img src={icon1} alt="icon"/>
-          <h2>01</h2>
+            <img src={icon1} alt="icon" />
+            <h2>01</h2>
           </div>
           <div className={s.container_work_main__picture_block__right__middle}>
-          <h3>Concept & Details</h3>
-          <p>It is a long established fact will be distracted.
-            Lorem Ipsum is simply dummy from text of the and
-            typesetting indufstry.</p>
-            </div>
-    </div>
+            <h3>Concept & Details</h3>
+            <p>
+              It is a long established fact will be distracted. Lorem Ipsum is simply dummy from
+              text of the and typesetting indufstry.
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className={`${s.container_work_main__picture_block} ${s.custom}`}>
@@ -42,14 +45,15 @@ const Work: any = () => {
         </div>
         <div className={s.container_work_main__picture_block__right}>
           <div className={s.container_work_main__picture_block__right__top}>
-            <img src={icon2} alt="icon"/>
+            <img src={icon2} alt="icon" />
             <h2>02</h2>
           </div>
           <div className={s.container_work_main__picture_block__right__middle}>
             <h3>Concept & Details</h3>
-            <p>It is a long established fact will be distracted.
-              Lorem Ipsum is simply dummy from text of the and
-              typesetting indufstry.</p>
+            <p>
+              It is a long established fact will be distracted. Lorem Ipsum is simply dummy from
+              text of the and typesetting indufstry.
+            </p>
           </div>
         </div>
       </div>
@@ -60,14 +64,15 @@ const Work: any = () => {
         </div>
         <div className={s.container_work_main__picture_block__right}>
           <div className={s.container_work_main__picture_block__right__top}>
-            <img src={icon3} alt="icon"/>
+            <img src={icon3} alt="icon" />
             <h2>03</h2>
           </div>
           <div className={s.container_work_main__picture_block__right__middle}>
             <h3>Concept & Details</h3>
-            <p>It is a long established fact will be distracted.
-              Lorem Ipsum is simply dummy from text of the and
-              typesetting indufstry.</p>
+            <p>
+              It is a long established fact will be distracted. Lorem Ipsum is simply dummy from
+              text of the and typesetting indufstry.
+            </p>
           </div>
         </div>
       </div>
@@ -78,19 +83,20 @@ const Work: any = () => {
         </div>
         <div className={s.container_work_main__picture_block__right}>
           <div className={s.container_work_main__picture_block__right__top}>
-            <img src={icon4} alt="icon"/>
+            <img src={icon4} alt="icon" />
             <h2>04</h2>
           </div>
           <div className={s.container_work_main__picture_block__right__middle}>
             <h3>Concept & Details</h3>
-            <p>It is a long established fact will be distracted.
-              Lorem Ipsum is simply dummy from text of the and
-              typesetting indufstry.</p>
+            <p>
+              It is a long established fact will be distracted. Lorem Ipsum is simply dummy from
+              text of the and typesetting indufstry.
+            </p>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Work;

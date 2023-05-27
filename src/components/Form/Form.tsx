@@ -7,7 +7,6 @@ import { IForm } from "../../utils/types";
 // }
 
 const Form: any = () => {
-
   return (
     <div className={s.form_container_main}>
       <form className={s.form}>
@@ -22,9 +21,9 @@ const Form: any = () => {
         <div className={s.textarea}>
           <textarea rows={5} placeholder="Hello Iam Interested in.." className={s.input} />
         </div>
-        </form>
+      </form>
     </div>
-  )
-}
+  );
+};
 
 export default Form;
