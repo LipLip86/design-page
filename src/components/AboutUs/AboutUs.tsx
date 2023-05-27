@@ -4,7 +4,7 @@ import callicon from "../../assets/about_us/Callicon.jpg";
 import imageround from "../../assets/about_us/Imageround.png";
 import { BaseButton } from "../ui";
 
-const AboutUs: any = () => {
+const AboutUs = (): JSX.Element => {
   const children = "Get the Estimate";
   return (
     <div className={s.container2}>

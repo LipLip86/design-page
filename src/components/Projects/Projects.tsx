@@ -6,7 +6,7 @@ import img2 from "../../assets/Ph_project2.jpg";
 import img3 from "../../assets/Ph_photo3.jpg";
 import img4 from "../../assets/Ph_project4.jpg";
 
-const Projects: any = () => {
+const Projects = (): JSX.Element => {
   return (
     <div className={s.container_projects}>
       <div className={s.text}>

@@ -2,7 +2,7 @@ import React from "react";
 import s from "./styles.module.css";
 import line from "../../assets/Line.png";
 
-const Counter: any = () => {
+const Counter = (): JSX.Element => {
   return (
     <div className={s.counter}>
       <div className={s.counter_inner}>

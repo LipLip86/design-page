@@ -9,7 +9,7 @@ import icon3 from "../../assets/Icon_work3.svg";
 import img4 from "../../assets/Photo_work4.jpg";
 import icon4 from "../../assets/Icon_work4.svg";
 
-const Work: any = () => {
+const Work = (): JSX.Element => {
   return (
     <div className={s.work}>
       <div className={s.work__text}>

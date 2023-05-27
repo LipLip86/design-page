@@ -6,7 +6,9 @@ import img3 from "../../assets/clients_logos/03.svg";
 import img4 from "../../assets/clients_logos/04.svg";
 import img5 from "../../assets/clients_logos/05.svg";
 
-const Clients: any = () => {
+// TODO : через map сделать
+
+const Clients = (): JSX.Element => {
   return (
     <div className={s.client_logo}>
       <img src={img1} alt="logo" />

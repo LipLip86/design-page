@@ -2,7 +2,7 @@ import React from "react";
 import img from "../../assets/about_ph.jpg";
 import s from "./styles.module.css";
 
-const AboutBanner: any = () => {
+const AboutBanner = (): JSX.Element => {
   return (
     <div className={s.container}>
       <img src={img} alt="banner" className={s.banner} />

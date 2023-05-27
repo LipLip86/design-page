@@ -10,9 +10,7 @@ import img6 from "../assets/bedroom6.jpg";
 import img7 from "../assets/bedroom7.jpg";
 import img8 from "../assets/bedroom8.jpg";
 
-import { ITabs } from "./types";
-
-export const tabs: ITabs[] = [
+export const tabs = [
   {
     id: "1",
     tabTitle: "Bathroom",

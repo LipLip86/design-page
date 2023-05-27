@@ -2,7 +2,7 @@ import React from "react";
 import img from "../../assets/Photo_service.jpg";
 import s from "./styles.module.css";
 
-const ServiceBanner = () => {
+const ServiceBanner = (): JSX.Element => {
   return (
     <div>
       <div className={s.container}>

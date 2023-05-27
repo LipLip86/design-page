@@ -8,7 +8,7 @@ import twitter from "../../assets/social_media_icons/twitter.svg";
 import lnkdn from "../../assets/social_media_icons/Lnkdn.svg";
 import insta from "../../assets/social_media_icons/insta.svg";
 
-const Team: any = () => {
+const Team = (): JSX.Element => {
   return (
     <div className={s.team}>
       <div className={s.team__content}>

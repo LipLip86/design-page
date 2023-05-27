@@ -2,7 +2,16 @@ import s from "./styles.module.css";
 import React from "react";
 import arrow from "../../../assets/ButtonIcons/right-icon.svg";
 
-const BaseButton = (props: any) => {
+interface IButton {
+  variant: string,
+  color: string,
+  disabled?: boolean,
+  children: any,
+  click?: () => {},
+  rightIcon: boolean
+}
+
+const BaseButton = (props: IButton) => {
   const { variant, color, disabled, children, click, rightIcon } = props;
 
   const btnType = `btn_${variant}-${color}`;

@@ -5,7 +5,12 @@ import locationIcon from "@iconify/icons-mdi/map-marker";
 import s from "./styles.module.css";
 
 const Map = () => {
-  const location = {
+  interface ILocation {
+    address: string;
+    lat: number;
+    lng: number;
+  }
+  const location: ILocation = {
     address: "1600 Amphitheatre Parkway, Mountain View, california.",
     lat: 37.42216,
     lng: -122.08427,
@@ -13,13 +18,20 @@ const Map = () => {
   // AIzaSyBa218bSkegHzxeE3ygfXoKQ9bBKuMYhj8
 
   const zoomLevel = 17;
+  interface IText {
+    text: string;
+  }
 
-  const LocationPin = ({ text }: any) => (
-    <div className={s.pin}>
-      <Icon icon={locationIcon} className={s.pin_icon} />
-      <p className={s.pin_text}>{text}</p>
-    </div>
-  );
+  const LocationPin = (props: ILocation) => {
+    const { address } = props;
+
+    return (
+      <div className={s.pin}>
+        <Icon icon={locationIcon} className={s.pin_icon} />
+        <p className={s.pin_text}>{address}</p>
+      </div>
+    );
+  };
 
   return (
     <div className={s.map}>

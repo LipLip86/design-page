@@ -3,7 +3,7 @@ import s from "./styles.module.css";
 import imgLeft from "../../assets/Pattern_left.svg";
 import imgRight from "../../assets/Pattern_right.svg";
 
-const Quote: any = () => {
+const Quote = (): JSX.Element => {
   return (
     <div className={s.container_quote}>
       <div className={s.container_img1}>

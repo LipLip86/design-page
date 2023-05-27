@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import s from "./styles.module.css";
 import { tabs } from "../../utils/constants";
+import { ITab, IView } from "../../utils/types";
 
 const Tabs = (): JSX.Element => {
   const [currentTab, setCurrentTab] = useState("1");
@@ -12,7 +13,7 @@ const Tabs = (): JSX.Element => {
   return (
     <div className={s.container}>
       <div className={s.tabs}>
-        {tabs.map((tab) => (
+        {tabs.map((tab: ITab) => (
           <button
             id={tab.id}
             disabled={currentTab === `${tab.id}`}
@@ -24,11 +25,11 @@ const Tabs = (): JSX.Element => {
         ))}
       </div>
       <div className={s.content}>
-        {tabs.map((tab: any) => (
+        {tabs.map((tab: ITab) => (
           <div className={s.images}>
             <div className={s.images__left}>
               {currentTab === `${tab.id}` &&
-                tab.viewsLeft.map((view: any, ind: number) => (
+                tab.viewsLeft.map((view: IView, ind: number) => (
                   <>
                     <div className={s.images__image1}>
                       <img src={view.image} alt="img 1" />
@@ -42,7 +43,7 @@ const Tabs = (): JSX.Element => {
             </div>
             <div className={s.images__right}>
               {currentTab === `${tab.id}` &&
-                tab.viewsRight.map((view: any, ind: number) => (
+                tab.viewsRight.map((view: IView, ind: number) => (
                   <>
                     <div className={s.images__image2}>
                       <img src={view.image} alt="img 2" />

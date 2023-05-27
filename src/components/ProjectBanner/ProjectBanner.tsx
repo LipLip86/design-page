@@ -2,7 +2,7 @@ import React from "react";
 import s from "./styles.module.css";
 import img1 from "../../assets/Photo_project.jpg";
 
-const ProjectBanner: any = () => {
+const ProjectBanner = (): JSX.Element => {
   return (
     <div>
       <div className={s.container}>

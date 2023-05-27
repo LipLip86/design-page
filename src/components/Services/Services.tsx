@@ -4,7 +4,7 @@ import img1 from "../../assets/Photoabout.jpg";
 import img2 from "../../assets/Photoabout2.jpg";
 import { BaseButton } from "../ui/index";
 
-const Services: any = () => {
+const Services = (): JSX.Element => {
   return (
     <div className={s.container_service}>
       <div className={s.container_service__first}>

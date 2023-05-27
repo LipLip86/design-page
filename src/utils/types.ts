@@ -13,11 +13,17 @@ export interface IForm {
   label: string
 }
 
-export interface ITabs {
+export interface IView {
+  title: string,
+  content: string,
+  image: any
+}
+
+export interface ITab {
   id: string;
   tabTitle: string;
-  viewsLeft?: any;
-  viewsRight?: any;
+  viewsLeft?: IView[];
+  viewsRight?: IView[];
 }
 
 export interface ICard {

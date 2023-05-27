@@ -4,7 +4,7 @@ import photo from "../../assets/blog_photo2.jpg";
 import { BaseArrow } from "../ui";
 import arrow from "../../assets/arrow.svg";
 
-const Post: any = () => {
+const Post = (): JSX.Element => {
   return (
     <div className={s.postContainer}>
       <h2>Latest Post</h2>

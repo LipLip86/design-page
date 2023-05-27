@@ -4,7 +4,7 @@ import photo from "../../assets/homebanner/Photomain.jpg";
 
 import s from "./styles.module.css";
 
-const HomeBanner: any = () => {
+const HomeBanner = (): JSX.Element => {
   return (
     <div className={s.container}>
       <img className={s.image} src={photo} alt="home" />

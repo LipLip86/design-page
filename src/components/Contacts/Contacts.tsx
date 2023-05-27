@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./styles.module.css";
 
-const Contacts: any = () => {
+const Contacts = (): JSX.Element => {
   return (
     <div className={s.container_main}>
       <h3>Wanna join the interno?</h3>
