@@ -7,7 +7,7 @@ interface IProps {
   subtitle: string;
 }
 
-const BannerTop: any = (props: IProps) => {
+const BannerTop = (props: IProps): JSX.Element => {
   const { img, title, subtitle } = props;
 
   return (

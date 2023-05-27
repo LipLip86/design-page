@@ -6,7 +6,7 @@ import twitter from "../../../assets/social_media_icons/twitter.svg";
 import lnkdn from "../../../assets/social_media_icons/Lnkdn.svg";
 import insta from "../../../assets/social_media_icons/insta.svg";
 
-const Footer: any = () => {
+const Footer = (): JSX.Element => {
   return (
     <div className={s.container_footer}>
       <div className={s.container_footer__logo}>

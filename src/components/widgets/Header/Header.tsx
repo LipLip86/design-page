@@ -4,7 +4,7 @@ import logo from "./Logo.svg";
 import search from "./Search.svg";
 import { NavLink } from "react-router-dom";
 
-const Header: any = () => {
+const Header = (): JSX.Element => {
   return (
     <div className={s.container}>
       <div className={s.logo}>
