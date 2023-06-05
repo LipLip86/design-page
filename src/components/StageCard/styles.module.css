@@ -1,17 +1,42 @@
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   color: #292F36;
-  font-size: 20px;
-  line-height: 125%;
   padding: 83px 40px;
 }
 
-.container h2 {
-  font-family: 'DM Serif Display', serif;
+.container__title {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  margin-bottom: 13px;
 }
 
-.text {
-  font-family: 'Jost', sans-serif;
+.container__text {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+  margin-bottom: 46px;
+}
+
+.container__link {
+  display: flex;
+  gap: 10px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #4D5053;
+  text-decoration: none;
 }
 

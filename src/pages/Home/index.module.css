@@ -23,10 +23,10 @@
 }
 
 .container_review {
+  margin-top: 200px;
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 150px auto;
   max-width: 1199px;
   background: #F4F0EC;
   border-radius: 70px;
@@ -34,14 +34,16 @@
   padding: 88px 24px;
 }
 
-.container h2 {
-  font-family: 'DM Serif Display', serif;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #292F36;
+.container_review__title {
+  font-family: 'DM Serif Display';
+  font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292F36;
+  margin: 0 auto 38px;
+  text-align: center;
 }
 
 .cards {
@@ -71,7 +73,6 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 150%;
-  /* or 33px */
   display: flex;
   align-items: center;
   text-align: center;

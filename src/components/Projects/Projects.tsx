@@ -5,6 +5,7 @@ import arrow from "../../assets/arrow.svg";
 import img2 from "../../assets/Ph_project2.jpg";
 import img3 from "../../assets/Ph_photo3.jpg";
 import img4 from "../../assets/Ph_project4.jpg";
+import { BaseArrow } from "../ui";
 
 const Projects = (): JSX.Element => {
   return (
@@ -25,7 +26,7 @@ const Projects = (): JSX.Element => {
               <p>Decor / Architecture</p>
             </div>
             <div>
-              <img src={arrow} alt="arrow" />
+              <BaseArrow imgUrl={arrow} colorBg="#F4F0EC" />
             </div>
           </div>
         </div>
@@ -38,7 +39,7 @@ const Projects = (): JSX.Element => {
               <p>Decor / Architecture</p>
             </div>
             <div>
-              <img src={arrow} alt="arrow" />
+              <BaseArrow imgUrl={arrow} colorBg="#F4F0EC" />
             </div>
           </div>
         </div>
@@ -51,7 +52,7 @@ const Projects = (): JSX.Element => {
               <p>Decor / Architecture</p>
             </div>
             <div>
-              <img src={arrow} alt="arrow" />
+              <BaseArrow imgUrl={arrow} colorBg="#F4F0EC" />
             </div>
           </div>
         </div>
@@ -64,7 +65,7 @@ const Projects = (): JSX.Element => {
               <p>Decor / Architecture</p>
             </div>
             <div>
-              <img src={arrow} alt="arrow" />
+              <BaseArrow imgUrl={arrow} colorBg="#F4F0EC" />
             </div>
           </div>
         </div>

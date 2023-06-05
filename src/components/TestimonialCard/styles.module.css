@@ -3,16 +3,20 @@
   flex-direction: column;
   color: #292F36;
   font-family: 'Jost', sans-serif;
-  align-items: center;
-  border-radius: 15px;
+  border-radius: 25px;
   padding: 53px 37px 0;
   background: #ffffff;
+}
+
+.image {
+  border-radius: 50%;
 }
 
 .card__content {
   display: flex;
   gap: 23px;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .card__content img {

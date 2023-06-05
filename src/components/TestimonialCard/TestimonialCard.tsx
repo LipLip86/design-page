@@ -13,7 +13,7 @@ const TestimonialCard = (props: IReview): JSX.Element => {
   return (
     <div className={s.card}>
       <div className={s.card__content}>
-        <img src={photo} alt="" />
+        <img className={s.image} src={photo} alt="" />
         <div>
           <h3>{name}</h3>
           <p>{location}</p>

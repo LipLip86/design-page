@@ -28,7 +28,7 @@ const Home = () => {
       </div>
       <AboutUs />
       <div className={s.container_review}>
-        <h2>
+        <h2 className={s.container_review__title}>
           What People Think
           <br />
           About Us
