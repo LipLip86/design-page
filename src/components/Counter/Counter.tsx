@@ -6,24 +6,24 @@ const Counter = (): JSX.Element => {
   return (
     <div className={s.counter}>
       <div className={s.counter_inner}>
-        <div className={s.counter_inner_item}>
-          <h3>12</h3>
-          <p>Years of Experience</p>
+        <div className={s.counter__item}>
+          <h3 className={s.counter__item_number}>12</h3>
+          <p className={s.counter__item_text}>Years of Experience</p>
         </div>
         <img src={line} alt="line" />
-        <div className={s.counter_inner_item}>
-          <h3>85</h3>
-          <p>Success Projects</p>
+        <div className={s.counter__item}>
+          <h3 className={s.counter__item_number}>85</h3>
+          <p className={s.counter__item_text}>Success Projects</p>
         </div>
         <img src={line} alt="line" />
-        <div className={s.counter_inner_item}>
-          <h3>15</h3>
-          <p>Active Projects</p>
+        <div className={s.counter__item}>
+          <h3 className={s.counter__item_number}>15</h3>
+          <p className={s.counter__item_text}>Active Projects</p>
         </div>
         <img src={line} alt="line" />
-        <div className={s.counter_inner_item}>
-          <h3>95</h3>
-          <p>Happy Customers</p>
+        <div className={s.counter__item}>
+          <h3 className={s.counter__item_number}>95</h3>
+          <p className={s.counter__item_text}>Happy Customers</p>
         </div>
       </div>
     </div>

@@ -52,31 +52,29 @@
   height: 339px;
 }
 
-.container_text {
-  margin-top: 150px;
+.articles {
+  margin: 150px 0 52px 0;
+  text-align: center;
 }
 
-.container_text h2 {
-  font-family: 'DM Serif Display', sans-serif;
+.articles__title {
+  font-family: 'DM Serif Display';
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 125%;
   letter-spacing: 0.02em;
   color: #292F36;
-  text-align: center;
 }
 
-.container_text p {
-  font-family: 'Jost', sans-serif;
+.articles__subtitle {
+  margin: 12px auto 0;
+  max-width: 811px;
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 150%;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.01em;
   color: #4D5053;
-  margin-bottom: 60px;
 }

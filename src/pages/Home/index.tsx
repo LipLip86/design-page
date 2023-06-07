@@ -15,7 +15,7 @@ import { stageCards, testimonialCards, posts } from "../../mocks/HomePageMocks";
 
 import { IStageCard } from "../../utils/types";
 
-import s from "./index.module.css";
+import s from "./styles.module.css";
 
 const Home = () => {
   return (
@@ -48,9 +48,9 @@ const Home = () => {
       <Clients />
       <Projects />
       <Counter />
-      <div className={s.container_text}>
-        <h2>Articles & News</h2>
-        <p>
+      <div className={s.articles}>
+        <h2 className={s.articles__title}>Articles & News</h2>
+        <p className={s.articles__subtitle}>
           It is a long established fact that a reader will be distracted by the of readable content
           of a page when lookings at its layouts the points of using.
         </p>
