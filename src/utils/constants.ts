@@ -1,14 +1,14 @@
-import img1 from "../assets/bedroom.jpg";
-import img2 from "../assets/bedroom2.jpg";
+import img1 from "../assets/bedroom_images/bedroom.jpg"
+import img2 from "../assets/bedroom_images/bedroom2.jpg";
 
-import img3 from "../assets/bedroom3.jpg";
-import img4 from "../assets/bedroom4.jpg";
+import img3 from "../assets/bedroom_images/bedroom3.jpg";
+import img4 from "../assets/bedroom_images/bedroom4.jpg";
 
-import img5 from "../assets/bedroom5.jpg";
-import img6 from "../assets/bedroom6.jpg";
+import img5 from "../assets/bedroom_images/bedroom5.jpg";
+import img6 from "../assets/bedroom_images/bedroom6.jpg";
 
-import img7 from "../assets/bedroom7.jpg";
-import img8 from "../assets/bedroom8.jpg";
+import img7 from "../assets/bedroom_images/bedroom7.jpg";
+import img8 from "../assets/bedroom_images/bedroom8.jpg";
 
 export const tabs = [
   {

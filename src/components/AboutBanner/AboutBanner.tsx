@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/about_ph.jpg";
+import img from "../../assets/banners/about_ph.jpg";
 import s from "./styles.module.css";
 
 const AboutBanner = (): JSX.Element => {

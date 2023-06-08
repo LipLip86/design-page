@@ -10,11 +10,8 @@ import {
   Contacts,
   CommonCard,
 } from "../../components/index";
-
 import { stageCards, testimonialCards, posts } from "../../mocks/HomePageMocks";
-
 import { IStageCard } from "../../utils/types";
-
 import s from "./index.module.css";
 
 const Home = () => {

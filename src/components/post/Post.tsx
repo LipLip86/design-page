@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./styles.module.css";
-import photo from "../../assets/blog_photo2.jpg";
+import photo from "../../assets/blog_images/blog_photo2.jpg";
 import { BaseArrow } from "../ui";
 import arrow from "../../assets/arrow.svg";
 

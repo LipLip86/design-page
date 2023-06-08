@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/Photo_service.jpg";
+import img from "../../assets/banners/Photo_service.jpg";
 import s from "./styles.module.css";
 
 const ServiceBanner = (): JSX.Element => {

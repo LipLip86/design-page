@@ -1,6 +1,6 @@
 import React from "react";
 import { BaseButton } from "../ui";
-import photo from "../../assets/homebanner/Photomain.jpg";
+import photo from "../../assets/banners/Photomain.jpg";
 
 import s from "./styles.module.css";
 

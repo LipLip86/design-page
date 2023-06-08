@@ -1,7 +1,7 @@
 import React from "react";
 import { Quote, Services, Team, Form } from "../../components/index";
 import { BannerTop } from "../../components/widgets";
-import bannerImage from "../../assets/about_ph.jpg";
+import bannerImage from "../../assets/banners/about_ph.jpg";
 
 import s from "./index.module.css";
 

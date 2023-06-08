@@ -1,8 +1,8 @@
-import img1 from "../../assets/blog_ph1.jpg";
-import img2 from "../../assets/blog_ph2.jpg";
-import img3 from "../../assets/blog_ph3.jpg";
+import img1 from "../../assets/blog_images/blog_ph1.jpg";
+import img2 from "../../assets/blog_images/blog_ph2.jpg";
+import img3 from "../../assets/blog_images/blog_ph3.jpg";
 import arrow from "../../assets/arrow.svg";
-import photo from "../../assets/Photoreview1.jpg";
+import photo from "../../assets/team_images/Photoreview1.jpg";
 
 export const testimonialCards = [
   {
@@ -59,17 +59,19 @@ export const stageCards = [
   {
     title: "Project Plan",
     text: "There are many variations of the passages of lorem Ipsum from available majority.",
-    link: "Read More"
+    link: "Read More",
+    button: arrow,
   },
   {
     title: "Interior Work",
     text: "There are many variations of the passages of lorem Ipsum from available majority.",
-    link: "Read More"
+    link: "Read More",
+    button: arrow,
   },
   {
     title: "Realization",
     text: "There are many variations of the passages of lorem Ipsum from available majority.",
-    link: "Read More"
+    link: "Read More",
+    button: arrow,
   }
 ]
-

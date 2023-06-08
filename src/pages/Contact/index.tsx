@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./index.module.css";
 import { BannerTop } from "../../components/widgets";
-import img1 from "../../assets/contacts_ph.jpg";
+import img1 from "../../assets/banners/contacts_ph.jpg";
 import { Form } from "../../components";
 import Map from "../../components/Map/Map";
 

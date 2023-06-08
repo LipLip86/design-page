@@ -3,7 +3,7 @@ export const servicesCardsConfig = [
     id: 1,
     title: "Project Plan",
     text: "There are many variations of the passages of lorem Ipsum from available, majority.",
-    link: "Read More"
+    link: "Read More",
   },
   {
     id: 2,

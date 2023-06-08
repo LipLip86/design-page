@@ -1,14 +1,14 @@
 import React from "react";
 import s from "./index.module.css";
 import { BannerTop } from "../../components/widgets";
-import imgbg from "../../assets/blog_ph.jpg";
+import imgbg from "../../assets/blog_images/blog_ph.jpg";
 import { BaseArrow } from "../../components/ui";
 import arrow from "../../assets/arrow.svg";
 import Post from "../../components/post/Post";
 import CommonCards from "../../components/CommonCard/CommonCard";
-import img1 from "../../assets/blog_ph1.jpg";
-import img2 from "../../assets/blog_ph2.jpg";
-import img3 from "../../assets/blog_ph3.jpg";
+import img1 from "../../assets/blog_images/blog_ph1.jpg";
+import img2 from "../../assets/blog_images/blog_ph2.jpg";
+import img3 from "../../assets/blog_images/blog_ph3.jpg";
 
 interface ICommonCard {
   id: number;

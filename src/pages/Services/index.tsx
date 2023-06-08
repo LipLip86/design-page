@@ -1,8 +1,8 @@
 import React from "react";
 import s from "./index.module.css";
 import { Contacts, StageCard, Work } from "../../components";
-import { servicesCardsConfig } from "../../configs/servicesCardsConfig";
-import bannerImage from "../../assets/about_ph.jpg";
+import { servicesCardsConfig } from "../../mocks/ServiceCardMocks/servicesCardsConfig";
+import bannerImage from "../../assets/banners/Photo_service.jpg";
 import { BannerTop } from "../../components/widgets";
 
 interface ICard {
