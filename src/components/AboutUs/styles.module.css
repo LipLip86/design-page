@@ -10,6 +10,7 @@
   color: #292F36;
   font-size: 50px;
   line-height: 125%;
+  margin-bottom: 33px;
 }
 
 .content__top p {
@@ -18,14 +19,14 @@
   font-size: 22px;
   line-height: 150%;
   color: #4D5053;
+  margin-bottom: 45px;
 }
 
 .content__contacts {
   display: flex;
   gap: 15px;
   align-items: center;
-  margin-top: 20px;
-
+  margin-bottom: 47px;
 }
 
 .content__contacts__text h4 {

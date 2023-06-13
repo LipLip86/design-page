@@ -4,8 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: row;
-  justify-content: space-between; */
   width: 100%;
   margin-top: 150px;
   background-color: #F4F0EC;
@@ -19,36 +17,31 @@
   align-items: center;
 }
 
-.counter_inner_item h3, p {
+.counter__item h3, p {
   margin: 0;
   padding: 0;
 }
 
-.counter_inner_item {
+.counter__item {
   text-align: center;
 }
 
-h3 {
-  color: #CDA274;
-  font-family: 'DM Serif Display', sans-serif;
+.counter__item_number {
+  font-family: 'DM Serif Display';
   font-style: normal;
   font-weight: 400;
   font-size: 85px;
   line-height: 125%;
   letter-spacing: 0.02em;
+  color: #CDA274;
 }
 
-img {
-
-}
-
-p {
-  font-family: 'Jost', sans-serif;
+.counter__item_text {
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 150%;
-  align-items: center;
   letter-spacing: 0.01em;
-  color: #4D5053
+  color: #4D5053;
 }

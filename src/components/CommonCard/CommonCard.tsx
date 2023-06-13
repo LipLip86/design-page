@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./styles.module.css";
 import { ICommonCard } from "../../utils/types";
+import { BaseArrow } from "../ui";
 
 interface IProps {
   posts: ICommonCard[];
@@ -23,7 +24,7 @@ const CommonCards = (props: IProps): JSX.Element => {
               </div>
               <div className={s.card_bottom}>
                 <p>{post.date}</p>
-                <img src={post.button} alt="arrow" />
+                <BaseArrow imgUrl={post.button} colorBg="#F4F0EC" />
               </div>
             </div>
           );

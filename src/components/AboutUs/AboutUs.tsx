@@ -29,9 +29,6 @@ const AboutUs = (): JSX.Element => {
         <BaseButton variant="default" color="blue" rightIcon={true}>
           {children}
         </BaseButton>
-        {/* <div className={s.button}>
-        Get The Estimate
-        </div> */}
       </div>
       <div>
         <img src={imageround} alt="bg" />
