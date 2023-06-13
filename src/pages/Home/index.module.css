@@ -1,0 +1,93 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.subcontent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Jost', sans-serif;
+  margin: 50px auto;
+}
+
+.subcontent a {
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #4D5053;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content p {
+  font-family: 'DM Serif Display', serif;
+  max-width: 70%;
+
+}
+
+.container_button {
+  max-width: 20px;
+  font-family: 'Arial Narrow Bold', sans-serif
+}
+
+.container_review {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 150px auto;
+  max-width: 1199px;
+  background: #F4F0EC;
+  border-radius: 70px;
+  font-family: 'Jost', sans-serif;
+  padding: 88px 24px;
+}
+
+.container h2 {
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #292F36;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  height: 339px;
+}
+
+.container_text {
+  margin-top: 150px;
+}
+
+.container_text h2 {
+  font-family: 'DM Serif Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292F36;
+  text-align: center;
+}
+
+.container_text p {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  /* or 33px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+  margin-bottom: 60px;
+}

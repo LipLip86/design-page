@@ -89,7 +89,7 @@
   backface-visibility: hidden;
 }
 
-.card:hover .card-inner {
+.card: .card-inner {
   transform: rotateY(180deg);
 }
 
