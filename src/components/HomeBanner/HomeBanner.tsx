@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { BaseButton } from "../ui";
 import photo from "../../assets/banners/Photomain.jpg";
+import { NavLink } from "react-router-dom";
 
 import s from "./styles.module.css";
 
@@ -13,9 +15,10 @@ const HomeBanner = (): JSX.Element => {
         <p className={s.content__text}>
           There are many variations of the passages of lorem Ipsum fromavailable, majority.
         </p>
+        <NavLink to="/about" >
         <BaseButton variant="default" color="blue" rightIcon={true}>
           Get Started
-        </BaseButton>
+        </BaseButton> </NavLink>
       </div>
     </div>
   );

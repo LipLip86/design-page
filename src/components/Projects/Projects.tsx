@@ -1,18 +1,10 @@
 import React from "react";
 import s from "./styles.module.css";
-import img1 from "../../assets/Ph_project1.jpg";
 import arrow from "../../assets/arrow.svg";
-import img2 from "../../assets/Ph_project2.jpg";
-import img3 from "../../assets/Ph_photo3.jpg";
-import img4 from "../../assets/Ph_project4.jpg";
 import { BaseArrow } from "../ui";
+import { ProjectsCards } from "../../mocks/ProjectsMocks";
 
 const Projects = (): JSX.Element => {
-
-  const projectsData = {
-    title: "Modern Kitchen",
-    subtitle: "Decor / Architecture",
-  };
 
   return (
     <div className={s.container_projects}>
@@ -24,57 +16,20 @@ const Projects = (): JSX.Element => {
         </p>
       </div>
       <div className={s.projects_container}>
-        <div className={s.project_block}>
-          <img src={img1} className={s.image_first} alt="bg" />
-          <div className={s.project_content}>
-            <div className={s.project_text}>
-              <h4>{projectsData.title}</h4>
-              <p>{projectsData.subtitle}</p>
-            </div>
-            <div>
-              <BaseArrow imgUrl={arrow} colorBg="#F4F0EC" />
-            </div>
-          </div>
-        </div>
-
-        <div className={s.project_block}>
-          <img src={img2} className={s.image_second} alt="bg" />
-          <div className={s.project_content}>
-            <div className={s.project_text}>
-            <h4>{projectsData.title}</h4>
-              <p>{projectsData.subtitle}</p>
-            </div>
-            <div>
-              <BaseArrow imgUrl={arrow} colorBg="#F4F0EC" />
+        {ProjectsCards.map((project) => (
+          <div className={s.project_block}>
+            <img src={project.image} className={s[project.class]} alt="bg" />
+            <div className={s.project_content}>
+              <div className={s.project_text}>
+                <h4>{project.title}</h4>
+                <p>{project.text}</p>
+              </div>
+              <div>
+                <BaseArrow imgUrl={arrow} colorBg="#F4F0EC" />
+              </div>
             </div>
           </div>
-        </div>
-
-        <div className={s.project_block}>
-          <img src={img3} className={s.image_third} alt="bg" />
-          <div className={s.project_content}>
-            <div className={s.project_text}>
-              <h4>{projectsData.title}</h4>
-              <p>{projectsData.subtitle}</p>
-            </div>
-            <div>
-              <BaseArrow imgUrl={arrow} colorBg="#F4F0EC" />
-            </div>
-          </div>
-        </div>
-
-        <div className={s.project_block}>
-          <img src={img4} className={s.image_fourth} alt="bg" />
-          <div className={s.project_content}>
-            <div className={s.project_text}>
-            <h4>{projectsData.title}</h4>
-              <p>{projectsData.subtitle}</p>
-            </div>
-            <div>
-              <BaseArrow imgUrl={arrow} colorBg="#F4F0EC" />
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );

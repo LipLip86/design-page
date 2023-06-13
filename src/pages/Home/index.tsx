@@ -14,6 +14,7 @@ import { stageCards, testimonialCards, posts } from "../../mocks/HomePageMocks";
 import { IStageCard } from "../../utils/types";
 
 import s from "./styles.module.css";
+import { reviewConfig } from "../../mocks/ServiceCardMocks/reviewconfig";
 
 const Home = () => {
   return (
@@ -32,9 +33,9 @@ const Home = () => {
           About Us
         </h2>
         <div className={s.cards}>
-          {testimonialCards.map((testimonialCard) => (
+          {reviewConfig.map((testimonialCard) => (
             <TestimonialCard
-              key={testimonialCard.id}
+              key={testimonialCard.name}
               name={testimonialCard.name}
               text={testimonialCard.text}
               location={testimonialCard.location}

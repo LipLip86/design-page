@@ -1,4 +1,4 @@
-import photo1 from "../assets/Photoreview1.jpg";
+import photo1 from "./Photoreview1.jpg";
 import photo2 from './Photoreview2.jpg';
 import photo3 from './Photoreview3.jpg'
 
