@@ -8,7 +8,7 @@
 
 .work__text {
   text-align: center;
-      padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .work__text h2 {
@@ -18,10 +18,20 @@
   font-size: 50px;
   line-height: 125%;
   text-align: center;
-  color: #363B41;
-
+  color: #292F36;
 }
 
+.work__text p {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #4D5053;
+}
 
 .container_work_main__text {
   margin-bottom: 100px;
@@ -34,7 +44,7 @@
   font-weight: 400;
   font-size: 50px;
   line-height: 125%;
-  color: #363B41;
+  color: #292F36;
 }
 
 .container_work_main__text p {
@@ -92,47 +102,37 @@
 
 .container_work_main__picture_block__right__top h2 {
   margin: 0;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-font-family: 'DM Serif Display';
-font-style: normal;
-font-weight: 400;
-font-size: 120px;
-line-height: 125%;
-/* or 150px */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .container_work_main__picture_block__right__middle p {
 
   font-family: 'Jost';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 150%;
-/* or 33px */
-
-display: flex;
-align-items: center;
-letter-spacing: 0.01em;
-
-color: #4D5053;
-
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #4D5053;
 }
 
 .container_work_main__picture_block__right__middle h2 {
   font-family: 'DM Serif Display';
-font-style: normal;
-font-weight: 400;
-font-size: 35px;
-line-height: 125%;
-/* identical to box height, or 44px */
-
-text-align: center;
-
-color: #292F36;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 125%;
+  text-align: center;
+  color: #292F36;
 }
