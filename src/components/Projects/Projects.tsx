@@ -7,6 +7,12 @@ import img3 from "../../assets/Ph_photo3.jpg";
 import img4 from "../../assets/Ph_project4.jpg";
 
 const Projects = (): JSX.Element => {
+
+  const projectsData = {
+    title: "Modern Kitchen",
+    subtitle: "Decor / Architecture",
+  };
+
   return (
     <div className={s.container_projects}>
       <div className={s.text}>
@@ -21,8 +27,8 @@ const Projects = (): JSX.Element => {
           <img src={img1} className={s.image_first} alt="bg" />
           <div className={s.project_content}>
             <div className={s.project_text}>
-              <h4>Modern Kitchen</h4>
-              <p>Decor / Architecture</p>
+              <h4>{projectsData.title}</h4>
+              <p>{projectsData.subtitle}</p>
             </div>
             <div>
               <img src={arrow} alt="arrow" />
@@ -34,8 +40,8 @@ const Projects = (): JSX.Element => {
           <img src={img2} className={s.image_second} alt="bg" />
           <div className={s.project_content}>
             <div className={s.project_text}>
-              <h4>Modern Kitchen</h4>
-              <p>Decor / Architecture</p>
+            <h4>{projectsData.title}</h4>
+              <p>{projectsData.subtitle}</p>
             </div>
             <div>
               <img src={arrow} alt="arrow" />
@@ -47,8 +53,8 @@ const Projects = (): JSX.Element => {
           <img src={img3} className={s.image_third} alt="bg" />
           <div className={s.project_content}>
             <div className={s.project_text}>
-              <h4>Modern Kitchen</h4>
-              <p>Decor / Architecture</p>
+              <h4>{projectsData.title}</h4>
+              <p>{projectsData.subtitle}</p>
             </div>
             <div>
               <img src={arrow} alt="arrow" />
@@ -60,8 +66,8 @@ const Projects = (): JSX.Element => {
           <img src={img4} className={s.image_fourth} alt="bg" />
           <div className={s.project_content}>
             <div className={s.project_text}>
-              <h4>Modern Kitchen</h4>
-              <p>Decor / Architecture</p>
+            <h4>{projectsData.title}</h4>
+              <p>{projectsData.subtitle}</p>
             </div>
             <div>
               <img src={arrow} alt="arrow" />

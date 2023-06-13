@@ -8,7 +8,18 @@
   flex-direction: row;
   align-items: center;
   font-family: 'Jost', sans-serif;
-  margin: 200px auto;
+  margin: 50px auto;
+}
+
+.subcontent a {
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #4D5053;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 125%;
+  text-decoration: none;
 }
 
 .content p {
